@@ -251,7 +251,7 @@
     </node>
     <node concept="sEiiz" id="Sr3WmIw2mf" role="OJ2fO">
       <property role="1hs7$j" value="Container Fusing Controller" />
-      <property role="eBQts" value="req12" />
+      <property role="eBQts" value="req12 " />
       <ref role="1Qhi4P" node="34ScOrO_op0" resolve="stirring motor" />
       <node concept="3T_uu0" id="Sr3WmIw2nf" role="3tOtb8">
         <ref role="3T_uuC" node="34ScOrO_otc" />
