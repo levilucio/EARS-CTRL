@@ -17,6 +17,7 @@
     <import index="vw7m" ref="f32fddd3-9ea0-405b-9874-fdda57f5e83d/java:org.fortiss.de.autocode4.gxw.codegen(org.iets3.structuralCoder/)" />
     <import index="13k4" ref="f32fddd3-9ea0-405b-9874-fdda57f5e83d/java:org.fortiss.de.autocode4.gxw.sdf(org.iets3.structuralCoder/)" />
     <import index="dxuu" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing(JDK/)" />
+    <import index="btm1" ref="b0f8641f-bd77-4421-8425-30d9088a82f7/java:org.apache.commons.lang3(org.apache.commons/)" />
     <import index="q3w4" ref="r:9fc7e752-54e5-497f-97da-8e179a90760e(org.iets3.ears.gxw.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
@@ -1747,7 +1748,7 @@
                       <ref role="3cqZAo" node="2lS7bsHRlTz" resolve="pcGen" />
                     </node>
                     <node concept="liA8E" id="4saS2TSsFNu" role="2OqNvi">
-                      <ref role="37wK5l" to="vw7m:~PseudoCodeGenerator.generateModelDescription(org.fortiss.de.autocode4.gxw.sdf.SDFctrl):java.lang.String" resolve="generateModelDescription" />
+                      <ref role="37wK5l" to="vw7m:~LustreCodeGenerator.generateModelDescription(org.fortiss.de.autocode4.gxw.sdf.SDFctrl):java.lang.String" resolve="generateModelDescription" />
                       <node concept="2OqwBi" id="Dx3vSZknMH" role="37wK5m">
                         <node concept="2OqwBi" id="Dx3vSZkmLD" role="2Oq$k0">
                           <node concept="37vLTw" id="Dx3vSZkmig" role="2Oq$k0">
