@@ -80,62 +80,62 @@
     <property role="$xNHY" value="Quiz Game Controller" />
     <node concept="otU$0" id="5VzCNBdpRH2" role="2skrmv">
       <property role="Nkej4" value="turn on" />
-      <ref role="Nkej6" node="5VzCNBdpRGu" resolve="Indicator Pupil" />
+      <ref role="Nkej6" node="5VzCNBdpRGu" resolve="indicator pupil" />
     </node>
     <node concept="otU$0" id="5VzCNBdpRH8" role="2skrmv">
       <property role="Nkej4" value="turn on" />
-      <ref role="Nkej6" node="5VzCNBdpRG_" resolve="Indicator High School" />
+      <ref role="Nkej6" node="5VzCNBdpRG_" resolve="indicator high school" />
     </node>
     <node concept="otU$0" id="5VzCNBdpROF" role="2skrmv">
       <property role="Nkej4" value="turn on" />
-      <ref role="Nkej6" node="5VzCNBdpRGH" resolve="Indicator Profesor" />
+      <ref role="Nkej6" node="5VzCNBdpRGH" resolve="indicator profesor" />
     </node>
     <node concept="otU$0" id="5VzCNBdpRLM" role="2skrmv">
       <property role="Nkej4" value="turn off" />
-      <ref role="Nkej6" node="5VzCNBdpRG_" resolve="Indicator High School" />
+      <ref role="Nkej6" node="5VzCNBdpRG_" resolve="indicator high school" />
     </node>
     <node concept="otU$0" id="5VzCNBdpRLN" role="2skrmv">
       <property role="Nkej4" value="turn off" />
-      <ref role="Nkej6" node="5VzCNBdpRGH" resolve="Indicator Profesor" />
+      <ref role="Nkej6" node="5VzCNBdpRGH" resolve="indicator profesor" />
     </node>
     <node concept="otU$0" id="5VzCNBdpRLU" role="2skrmv">
       <property role="Nkej4" value="turn off" />
-      <ref role="Nkej6" node="5VzCNBdpRGu" resolve="Indicator Pupil" />
+      <ref role="Nkej6" node="5VzCNBdpRGu" resolve="indicator pupil" />
     </node>
     <node concept="2uIZ38" id="5VzCNBdpRGa" role="2skrmi">
-      <property role="TrG5h" value="Pupil Button 1" />
+      <property role="TrG5h" value="pupil button 1" />
       <property role="2uI0VX" value="The first answer button for pulip team" />
     </node>
     <node concept="2uIZ38" id="5VzCNBdpRGc" role="2skrmi">
-      <property role="TrG5h" value="Pupil Button 2" />
+      <property role="TrG5h" value="pupil button 2" />
       <property role="2uI0VX" value="The second answer button for pulip team" />
     </node>
     <node concept="2uIZ38" id="5VzCNBdpRGf" role="2skrmi">
-      <property role="TrG5h" value="High school button" />
+      <property role="TrG5h" value="high school button" />
       <property role="2uI0VX" value="The high school button" />
     </node>
     <node concept="2uIZ38" id="5VzCNBdpRGj" role="2skrmi">
-      <property role="TrG5h" value="Professor Buttton 1" />
+      <property role="TrG5h" value="professor buttton 1" />
       <property role="2uI0VX" value="The first professor Button" />
     </node>
     <node concept="2uIZ38" id="5VzCNBdpRGo" role="2skrmi">
-      <property role="TrG5h" value="Professor Button 2" />
+      <property role="TrG5h" value="professor button 2" />
       <property role="2uI0VX" value="The second Profesor Button" />
     </node>
     <node concept="2uIZ38" id="5VzCNBdpRGu" role="2skrmi">
-      <property role="TrG5h" value="Indicator Pupil" />
+      <property role="TrG5h" value="indicator pupil" />
       <property role="2uI0VX" value="The indicator light for pupil team" />
     </node>
     <node concept="2uIZ38" id="5VzCNBdpRG_" role="2skrmi">
-      <property role="TrG5h" value="Indicator High School" />
+      <property role="TrG5h" value="indicator high school" />
       <property role="2uI0VX" value="The indcator light for high school team" />
     </node>
     <node concept="2uIZ38" id="5VzCNBdpRGH" role="2skrmi">
-      <property role="TrG5h" value="Indicator Profesor" />
+      <property role="TrG5h" value="indicator profesor" />
       <property role="2uI0VX" value="The indocator light for professor team" />
     </node>
     <node concept="2uIZ38" id="5VzCNBdpRGQ" role="2skrmi">
-      <property role="TrG5h" value="Reset button" />
+      <property role="TrG5h" value="reset button" />
       <property role="2uI0VX" value="The reset button" />
     </node>
     <node concept="otU$d" id="5VzCNBdpRHt" role="2skrmg">
@@ -163,7 +163,7 @@
       <property role="OJvIS" value="reset button is pressed" />
     </node>
     <node concept="1JDFFW" id="5VzCNBdpROS" role="1JDDoy">
-      <ref role="1J_PH9" node="5VzCNBdpRGH" resolve="Indicator Profesor" />
+      <ref role="1J_PH9" node="5VzCNBdpRGH" resolve="indicator profesor" />
       <node concept="OJJ_U" id="5VzCNBdpRPj" role="1JD8cJ">
         <ref role="OJJ_O" node="5VzCNBdpRLN" />
       </node>
@@ -174,7 +174,7 @@
       </node>
     </node>
     <node concept="1JDFFW" id="5VzCNBdpROY" role="1JDDoy">
-      <ref role="1J_PH9" node="5VzCNBdpRGu" resolve="Indicator Pupil" />
+      <ref role="1J_PH9" node="5VzCNBdpRGu" resolve="indicator pupil" />
       <node concept="OJJ_U" id="5VzCNBdpRPu" role="1JD8cJ">
         <ref role="OJJ_O" node="5VzCNBdpRLU" />
       </node>
@@ -185,7 +185,7 @@
       </node>
     </node>
     <node concept="1JDFFW" id="5VzCNBdpRP7" role="1JDDoy">
-      <ref role="1J_PH9" node="5VzCNBdpRG_" resolve="Indicator High School" />
+      <ref role="1J_PH9" node="5VzCNBdpRG_" resolve="indicator high school" />
       <node concept="OJJ_U" id="5VzCNBdpRPD" role="1JD8cJ">
         <ref role="OJJ_O" node="5VzCNBdpRLM" />
       </node>
@@ -202,7 +202,7 @@
     <node concept="1cwdkO" id="5VzCNBdpRHE" role="OJ2fO">
       <property role="eBQts" value="Req1" />
       <property role="1hs7$j" value="Quiz Game Controller" />
-      <ref role="1Qhi4P" node="5VzCNBdpRGu" resolve="Indicator Pupil" />
+      <ref role="1Qhi4P" node="5VzCNBdpRGu" resolve="indicator pupil" />
       <node concept="3T_uu1" id="5VzCNBdpRHO" role="1cwflV">
         <node concept="3T_uu0" id="5VzCNBdpRI4" role="3T_uuQ">
           <ref role="3T_uuC" node="5VzCNBdpRHV" />
@@ -224,7 +224,7 @@
     <node concept="1cwdkO" id="5VzCNBdpRII" role="OJ2fO">
       <property role="eBQts" value="Req2" />
       <property role="1hs7$j" value="Quiz Game Controller" />
-      <ref role="1Qhi4P" node="5VzCNBdpRG_" resolve="Indicator High School" />
+      <ref role="1Qhi4P" node="5VzCNBdpRG_" resolve="indicator high school" />
       <node concept="3T_uu1" id="5VzCNBdpRJ2" role="1cwflV">
         <node concept="3T_uu0" id="5VzCNBdpRJ9" role="3T_uuQ">
           <ref role="3T_uuC" node="5VzCNBdpRJc" />
@@ -246,7 +246,7 @@
     <node concept="1cwdkO" id="5VzCNBdpRJT" role="OJ2fO">
       <property role="eBQts" value="Req3" />
       <property role="1hs7$j" value="Quiz Game Controller" />
-      <ref role="1Qhi4P" node="5VzCNBdpRGH" resolve="Indicator Profesor" />
+      <ref role="1Qhi4P" node="5VzCNBdpRGH" resolve="indicator profesor" />
       <node concept="3T_uu1" id="5VzCNBdpRKk" role="1cwflV">
         <node concept="3T_uu0" id="5VzCNBdpRKr" role="3T_uuQ">
           <ref role="3T_uuC" node="5VzCNBdpRJc" />
@@ -273,7 +273,7 @@
     <node concept="sEiiz" id="5VzCNBdpRLc" role="OJ2fO">
       <property role="eBQts" value="Req4" />
       <property role="1hs7$j" value="Quiz Game Controller" />
-      <ref role="1Qhi4P" node="5VzCNBdpRG_" resolve="Indicator High School" />
+      <ref role="1Qhi4P" node="5VzCNBdpRG_" resolve="indicator high school" />
       <node concept="3T_uu0" id="5VzCNBdpRLA" role="3tOtb8">
         <ref role="3T_uuC" node="5VzCNBdpRIq" />
       </node>
@@ -285,7 +285,7 @@
     <node concept="sEiiz" id="5VzCNBdpRMX" role="OJ2fO">
       <property role="1hs7$j" value="Quiz Game Controller" />
       <property role="eBQts" value="Req5" />
-      <ref role="1Qhi4P" node="5VzCNBdpRGH" resolve="Indicator Profesor" />
+      <ref role="1Qhi4P" node="5VzCNBdpRGH" resolve="indicator profesor" />
       <node concept="3T_uu0" id="5VzCNBdpRNr" role="3tOtb8">
         <ref role="3T_uuC" node="5VzCNBdpRIq" />
       </node>
@@ -297,7 +297,7 @@
     <node concept="sEiiz" id="5VzCNBdpRO5" role="OJ2fO">
       <property role="eBQts" value="Req6" />
       <property role="1hs7$j" value="Quiz Game Controller" />
-      <ref role="1Qhi4P" node="5VzCNBdpRGu" resolve="Indicator Pupil" />
+      <ref role="1Qhi4P" node="5VzCNBdpRGu" resolve="indicator pupil" />
       <node concept="3T_uu0" id="5VzCNBdpROB" role="3tOtb8">
         <ref role="3T_uuC" node="5VzCNBdpRIq" />
       </node>

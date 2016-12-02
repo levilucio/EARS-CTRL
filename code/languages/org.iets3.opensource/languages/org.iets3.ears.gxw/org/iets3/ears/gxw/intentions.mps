@@ -2539,25 +2539,6 @@
                         </node>
                       </node>
                       <node concept="3clFbH" id="4mAZfsBc1G_" role="3cqZAp" />
-                      <node concept="3clFbF" id="4mAZfsBa03Q" role="3cqZAp">
-                        <node concept="2OqwBi" id="4mAZfsBa1Gl" role="3clFbG">
-                          <node concept="10M0yZ" id="4mAZfsBa0MK" role="2Oq$k0">
-                            <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-                            <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
-                          </node>
-                          <node concept="liA8E" id="4mAZfsBa2Om" role="2OqNvi">
-                            <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
-                            <node concept="3cpWs3" id="4mAZfsBa5zj" role="37wK5m">
-                              <node concept="37vLTw" id="4mAZfsBa5__" role="3uHU7w">
-                                <ref role="3cqZAo" node="4mAZfsA_zXY" resolve="modifiedTrigger" />
-                              </node>
-                              <node concept="Xl_RD" id="4mAZfsBa3j5" role="3uHU7B">
-                                <property role="Xl_RC" value=" the one " />
-                              </node>
-                            </node>
-                          </node>
-                        </node>
-                      </node>
                       <node concept="3clFbH" id="4mAZfsB9ZkX" role="3cqZAp" />
                       <node concept="3SKdUt" id="4mAZfsAouiZ" role="3cqZAp">
                         <node concept="3SKdUq" id="4mAZfsAouj1" role="3SKWNk">
