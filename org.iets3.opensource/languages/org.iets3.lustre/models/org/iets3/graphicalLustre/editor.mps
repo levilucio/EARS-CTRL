@@ -947,5 +947,32 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="7R851$_ioWl">
+    <property role="3GE5qa" value="Actors" />
+    <ref role="1XX52x" to="lqc6:xNs95uNWKK" resolve="AndActor" />
+    <node concept="3EZMnI" id="7R851$_ioWn" role="2wV5jI">
+      <node concept="3F0ifn" id="7R851$_ioWo" role="3EZMnx">
+        <property role="3F0ifm" value="AndActor" />
+      </node>
+      <node concept="3F0A7n" id="7R851$_ioWp" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        <node concept="pVoyu" id="7R851$_ioWq" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="7R851$_ioWr" role="3EZMnx" />
+      <node concept="1iCGBv" id="7R851$_ioWs" role="3EZMnx">
+        <property role="1$x2rV" value="Def" />
+        <ref role="1NtTu8" to="lqc6:xNs95uPj7m" resolve="gateDefinition" />
+        <node concept="1sVBvm" id="7R851$_ioWt" role="1sWHZn">
+          <node concept="3F0ifn" id="7R851$_ioWu" role="2wV5jI">
+            <property role="3F0ifm" value="Def" />
+            <property role="ilYzB" value="Def" />
+          </node>
+        </node>
+      </node>
+      <node concept="l2Vlx" id="7R851$_ioWv" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 
