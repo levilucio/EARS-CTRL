@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <root>
+    <file name="TextGenAspectDescriptor.java">
+      <unit at="17,0,83,0" name="org.iets3.ears.gxw.textGen.TextGenAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:7bd8df9e-2cf3-493b-ac4a-db0232588bdd(org.iets3.ears.gxw.textGen)/7600310587779637001">
+    <file name="RequirementChunk_TextGen.java">
+      <node id="7600310587779637001" at="24,54,25,55" concept="4" />
+      <node id="7600310587779647842" at="25,55,26,76" concept="6" />
+      <node id="7600310587779649227" at="26,76,27,0" concept="7" />
+      <node id="7600310587779649446" at="27,0,28,53" concept="6" />
+      <node id="4439542802418265968" at="28,53,29,115" concept="4" />
+      <node id="7600310587779649778" at="29,115,30,93" concept="4" />
+      <node id="7600310587779648357" at="30,93,31,0" concept="7" />
+      <node id="7600310587779651929" at="32,400,33,232" concept="0" />
+      <node id="7600310587779657136" at="34,5,35,0" concept="7" />
+      <node id="7600310587779660732" at="36,408,37,580" concept="0" />
+      <node id="7600310587779657382" at="38,5,39,0" concept="7" />
+      <node id="7600310587779835857" at="39,0,40,54" concept="6" />
+      <node id="7600310587779835042" at="40,54,41,0" concept="7" />
+      <node id="7600310587780007525" at="42,236,43,56" concept="6" />
+      <node id="7600310587779982784" at="43,56,44,24" concept="0" />
+      <node id="7600310587779983056" at="44,24,45,26" concept="0" />
+      <node id="7600310587780006064" at="45,26,46,0" concept="7" />
+      <node id="7600310587779682767" at="47,192,48,372" concept="4" />
+      <node id="7600310587779684625" at="48,372,49,144" concept="0" />
+      <node id="7600310587779747118" at="49,144,50,27" concept="0" />
+      <node id="9190636705089703118" at="50,27,51,0" concept="7" />
+      <node id="9190636705089716375" at="52,212,53,209" concept="4" />
+      <node id="7600310587780059661" at="53,209,54,385" concept="4" />
+      <node id="3691935882244172121" at="54,385,55,382" concept="4" />
+      <node id="7600310587780059668" at="56,354,57,555" concept="0" />
+      <node id="9190636705089705587" at="58,362,59,293" concept="4" />
+      <node id="9190636705089898708" at="59,293,60,344" concept="0" />
+      <node id="9190636705089898430" at="60,344,61,0" concept="7" />
+      <node id="9190636705089705634" at="62,368,63,293" concept="4" />
+      <node id="9190636705089917484" at="63,293,64,379" concept="0" />
+      <node id="9190636705089704618" at="65,9,66,0" concept="7" />
+      <node id="7600310587780059687" at="66,0,67,27" concept="0" />
+      <node id="9190636705089703682" at="67,27,68,0" concept="7" />
+      <node id="9190636705089661645" at="69,200,70,197" concept="4" />
+      <node id="7600310587779753200" at="70,197,71,208" concept="4" />
+      <node id="7600310587779746936" at="72,354,73,431" concept="0" />
+      <node id="9190636705089583425" at="74,362,75,293" concept="4" />
+      <node id="9190636705089580038" at="75,293,76,214" concept="0" />
+      <node id="9190636705089700187" at="77,368,78,293" concept="4" />
+      <node id="9190636705089688818" at="78,293,79,242" concept="0" />
+      <node id="7600310587780014948" at="80,9,81,27" concept="0" />
+      <node id="7600310587779836947" at="83,5,84,0" concept="7" />
+      <node id="7600310587779875887" at="84,0,85,21" concept="0" />
+      <node id="7600310587779874901" at="85,21,86,0" concept="7" />
+      <node id="7600310587779838689" at="86,0,87,41" concept="6" />
+      <node id="7600310587779840795" at="87,41,88,27" concept="6" />
+      <node id="7600310587779842970" at="88,27,89,29" concept="6" />
+      <node id="7600310587779844029" at="89,29,90,0" concept="7" />
+      <node id="7600310587779845114" at="90,0,91,25" concept="0" />
+      <node id="7600310587779849364" at="92,77,93,34" concept="0" />
+      <node id="7600310587779867458" at="94,78,95,25" concept="0" />
+      <node id="7600310587779851343" at="97,5,98,18" concept="0" />
+      <node id="7600310587779852578" at="98,18,99,0" concept="7" />
+      <node id="7600310587779853691" at="99,0,100,26" concept="0" />
+      <node id="7600310587779853696" at="101,85,102,35" concept="0" />
+      <node id="7600310587779869600" at="103,86,104,25" concept="0" />
+      <node id="7600310587779853702" at="106,5,107,18" concept="0" />
+      <node id="7600310587779852738" at="107,18,108,0" concept="7" />
+      <node id="7600310587779837757" at="108,0,109,0" concept="7" />
+      <node id="7600310587779644316" at="111,42,112,18" concept="5" />
+      <node id="7600310587779643554" at="114,41,115,161" concept="5" />
+      <node id="7600310587779650541" at="31,0,34,5" concept="1" />
+      <node id="7600310587779658117" at="35,0,38,5" concept="1" />
+      <node id="7600310587779863307" at="93,34,96,7" concept="2" />
+      <node id="7600310587779867544" at="102,35,105,7" concept="2" />
+      <node id="7600310587779637001" at="111,0,114,0" concept="3" trace="getExtension#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="7600310587779637001" at="114,0,117,0" concept="3" trace="getFilename#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="7600310587779847333" at="91,25,97,5" concept="1" />
+      <node id="7600310587779853693" at="100,26,106,5" concept="1" />
+      <node id="9190636705089552656" at="71,208,80,9" concept="2" />
+      <node id="9190636705089705555" at="55,382,65,9" concept="2" />
+      <node id="7600310587779645216" at="46,0,82,7" concept="2" />
+      <node id="7600310587779644718" at="41,0,83,5" concept="1" />
+      <node id="7600310587779637001" at="23,0,111,0" concept="3" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="7600310587779650545" at="32,400,33,232" />
+      <scope id="7600310587779658121" at="36,408,37,580" />
+      <scope id="9190636705089705556" at="56,354,57,555" />
+      <scope id="9190636705089552658" at="72,354,73,431" />
+      <scope id="7600310587779863309" at="94,78,95,25" />
+      <scope id="7600310587779867546" at="103,86,104,25" />
+      <scope id="7600310587779637001" at="111,42,112,18" />
+      <scope id="7600310587779637001" at="114,41,115,161" />
+      <scope id="9190636705089705633" at="62,368,64,379">
+        <var name="triggerName" id="9190636705089705635" />
+      </scope>
+      <scope id="9190636705089576487" at="74,362,76,214">
+        <var name="triggerName" id="9190636705089583428" />
+      </scope>
+      <scope id="9190636705089679487" at="77,368,79,242">
+        <var name="triggerName" id="9190636705089700188" />
+      </scope>
+      <scope id="7600310587779650541" at="31,0,34,5">
+        <var name="trigger" id="7600310587779650543" />
+      </scope>
+      <scope id="7600310587779658117" at="35,0,38,5">
+        <var name="systemResponse" id="7600310587779658119" />
+      </scope>
+      <scope id="9190636705089705586" at="58,362,61,0">
+        <var name="triggerName" id="9190636705089705588" />
+      </scope>
+      <scope id="7600310587779637001" at="111,0,114,0">
+        <var name="node" id="7600310587779637001" />
+      </scope>
+      <scope id="7600310587779637001" at="114,0,117,0">
+        <var name="node" id="7600310587779637001" />
+      </scope>
+      <scope id="7600310587779645217" at="47,192,51,0">
+        <var name="responseFormula" id="7600310587779682770" />
+      </scope>
+      <scope id="7600310587779847337" at="92,77,96,7" />
+      <scope id="7600310587779853695" at="101,85,105,7" />
+      <scope id="7600310587779847333" at="91,25,97,5">
+        <var name="trigger" id="7600310587779847335" />
+      </scope>
+      <scope id="7600310587779853693" at="100,26,106,5">
+        <var name="response" id="7600310587779853694" />
+      </scope>
+      <scope id="7600310587779745775" at="69,200,81,27">
+        <var name="responseFormula" id="7600310587779753201" />
+        <var name="the_req" id="9190636705089661648" />
+      </scope>
+      <scope id="7600310587780058564" at="52,212,68,0">
+        <var name="responseFormula" id="7600310587780059662" />
+        <var name="the_req" id="9190636705089716376" />
+        <var name="triggerFormula" id="3691935882244172122" />
+      </scope>
+      <scope id="7600310587779644720" at="42,236,82,7" />
+      <scope id="7600310587779644718" at="41,0,83,5">
+        <var name="req" id="7600310587779644719" />
+      </scope>
+      <scope id="7600310587779637001" at="24,54,109,0">
+        <var name="systemResponseMap" id="7600310587779649779" />
+        <var name="tgs" id="7600310587779637001" />
+        <var name="triggerMap" id="4439542802418265971" />
+      </scope>
+      <scope id="7600310587779637001" at="23,0,111,0">
+        <var name="ctx" id="7600310587779637001" />
+      </scope>
+      <unit id="7600310587779637001" at="22,0,118,0" name="org.iets3.ears.gxw.textGen.RequirementChunk_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="7600310587779643554" at="67,66,68,161" concept="5" />
+      <node id="7600310587779644316" at="70,71,71,18" concept="5" />
+    </file>
+  </root>
+  <root nodeRef="r:7bd8df9e-2cf3-493b-ac4a-db0232588bdd(org.iets3.ears.gxw.textGen)/7600310587779932783">
+    <file name="NormalUbiquitousReq_TextGen.java">
+      <node id="7600310587779932783" at="16,54,17,55" concept="4" />
+      <node id="7600310587779934447" at="18,208,19,25" concept="0" />
+      <node id="7600310587779934529" at="19,25,20,515" concept="0" />
+      <node id="7600310587779937796" at="20,515,21,28" concept="0" />
+      <node id="7600310587779977296" at="21,28,22,454" concept="0" />
+      <node id="7600310587779992210" at="22,454,23,20" concept="0" />
+      <node id="7600310587779932801" at="17,55,24,5" concept="2" />
+      <node id="7600310587779932783" at="15,0,26,0" concept="3" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="7600310587779932802" at="18,208,23,20" />
+      <scope id="7600310587779932783" at="16,54,24,5">
+        <var name="tgs" id="7600310587779932783" />
+      </scope>
+      <scope id="7600310587779932783" at="15,0,26,0">
+        <var name="ctx" id="7600310587779932783" />
+      </scope>
+      <unit id="7600310587779932783" at="14,0,27,0" name="org.iets3.ears.gxw.textGen.NormalUbiquitousReq_TextGen" />
+    </file>
+  </root>
+  <root nodeRef="r:7bd8df9e-2cf3-493b-ac4a-db0232588bdd(org.iets3.ears.gxw.textGen)/7600310587779997584">
+    <file name="NormalEventDrivenReq_TextGen.java">
+      <node id="7600310587779997584" at="17,54,18,55" concept="4" />
+      <node id="7600310587779997680" at="19,209,20,26" concept="0" />
+      <node id="7600310587779997682" at="20,26,21,448" concept="0" />
+      <node id="9190636705090016434" at="21,448,22,22" concept="0" />
+      <node id="9190636705090009720" at="22,22,23,524" concept="0" />
+      <node id="7600310587779997690" at="23,524,24,27" concept="0" />
+      <node id="7600310587780000632" at="24,27,25,516" concept="0" />
+      <node id="7600310587780003116" at="25,516,26,28" concept="0" />
+      <node id="7600310587779997692" at="26,28,27,455" concept="0" />
+      <node id="7600310587779997700" at="27,455,28,20" concept="0" />
+      <node id="7600310587779997678" at="18,55,29,5" concept="2" />
+      <node id="7600310587779997584" at="16,0,31,0" concept="3" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="7600310587779997679" at="19,209,28,20" />
+      <scope id="7600310587779997584" at="17,54,29,5">
+        <var name="tgs" id="7600310587779997584" />
+      </scope>
+      <scope id="7600310587779997584" at="16,0,31,0">
+        <var name="ctx" id="7600310587779997584" />
+      </scope>
+      <unit id="7600310587779997584" at="15,0,32,0" name="org.iets3.ears.gxw.textGen.NormalEventDrivenReq_TextGen" />
+    </file>
+  </root>
+  <root nodeRef="r:7bd8df9e-2cf3-493b-ac4a-db0232588bdd(org.iets3.ears.gxw.textGen)/7600310587780087525">
+    <file name="NormalEventDrivenOptionalFeatReq_TextGen.java">
+      <node id="7600310587780087525" at="17,54,18,55" concept="4" />
+      <node id="7600310587780088281" at="19,221,20,26" concept="0" />
+      <node id="7600310587780088283" at="20,26,21,460" concept="0" />
+      <node id="9190636705090027891" at="21,460,22,22" concept="0" />
+      <node id="9190636705090021415" at="22,22,23,524" concept="0" />
+      <node id="7600310587780088291" at="23,524,24,27" concept="0" />
+      <node id="7600310587780088293" at="24,27,25,528" concept="0" />
+      <node id="7600310587780088301" at="25,528,26,28" concept="0" />
+      <node id="7600310587780088303" at="26,28,27,467" concept="0" />
+      <node id="7600310587780089090" at="27,467,28,28" concept="0" />
+      <node id="7600310587780089447" at="28,28,29,465" concept="0" />
+      <node id="7600310587780088311" at="29,465,30,20" concept="0" />
+      <node id="7600310587780088279" at="18,55,31,5" concept="2" />
+      <node id="7600310587780087525" at="16,0,33,0" concept="3" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="7600310587780088280" at="19,221,30,20" />
+      <scope id="7600310587780087525" at="17,54,31,5">
+        <var name="tgs" id="7600310587780087525" />
+      </scope>
+      <scope id="7600310587780087525" at="16,0,33,0">
+        <var name="ctx" id="7600310587780087525" />
+      </scope>
+      <unit id="7600310587780087525" at="15,0,34,0" name="org.iets3.ears.gxw.textGen.NormalEventDrivenOptionalFeatReq_TextGen" />
+    </file>
+  </root>
+</debug-info>
+
