@@ -3,6 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="7731a166-da1f-472e-a40a-2283f5e47dc5" name="org.iets3.ears.gxw" version="0" />
+    <use id="33eb1b5b-ad96-4262-9112-684c487e01e0" name="org.iets3.graphicalLustre" version="0" />
   </languages>
   <imports />
   <registry>
@@ -20,6 +21,7 @@
         <property id="6744041109748080144" name="text" index="OJvIS" />
       </concept>
       <concept id="135049047333306355" name="org.iets3.ears.gxw.structure.GlossaryChunk" flags="ng" index="2skrmn">
+        <property id="8920104694035884171" name="nameOfController" index="$xNHY" />
         <child id="135049047333306356" name="listOfTriggers" index="2skrmg" />
         <child id="135049047333306358" name="listOfComponents" index="2skrmi" />
         <child id="135049047333306363" name="listOfResponses" index="2skrmv" />
@@ -146,6 +148,7 @@
   </node>
   <node concept="2skrmn" id="2$$ntKwwEOp">
     <property role="TrG5h" value="Glossary for Automatic Door" />
+    <property role="$xNHY" value="Door Controller" />
     <node concept="otU$d" id="2$$ntKwwEPc" role="2skrmg">
       <property role="OJvIS" value="object detected" />
     </node>

@@ -2061,30 +2061,6 @@
             <node concept="3clFbJ" id="1TTP9gdhEII" role="3cqZAp">
               <node concept="3clFbS" id="1TTP9gdhEIK" role="3clFbx">
                 <node concept="3clFbH" id="7hpOFpHsPko" role="3cqZAp" />
-                <node concept="3clFbF" id="7hpOFpHsNjl" role="3cqZAp">
-                  <node concept="2OqwBi" id="7hpOFpHsO7l" role="3clFbG">
-                    <node concept="10M0yZ" id="7hpOFpHsNtK" role="2Oq$k0">
-                      <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-                      <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
-                    </node>
-                    <node concept="liA8E" id="7hpOFpHsOZs" role="2OqNvi">
-                      <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
-                      <node concept="3cpWs3" id="7hpOFpHsyIr" role="37wK5m">
-                        <node concept="2OqwBi" id="7hpOFpHsyXY" role="3uHU7w">
-                          <node concept="37vLTw" id="7hpOFpHsyIR" role="2Oq$k0">
-                            <ref role="3cqZAo" node="1TTP9gdhE8E" resolve="actor" />
-                          </node>
-                          <node concept="liA8E" id="7hpOFpHsz7X" role="2OqNvi">
-                            <ref role="37wK5l" to="13k4:~Actor.getName():java.lang.String" resolve="getName" />
-                          </node>
-                        </node>
-                        <node concept="Xl_RD" id="1TTP9gdhEQ1" role="3uHU7B">
-                          <property role="Xl_RC" value="this is an event actor! with name " />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
                 <node concept="3clFbJ" id="7hpOFpHsdk_" role="3cqZAp">
                   <node concept="3clFbS" id="7hpOFpHsdkB" role="3clFbx">
                     <node concept="3clFbH" id="7hpOFpHsdO2" role="3cqZAp" />
