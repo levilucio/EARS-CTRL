@@ -1,0 +1,59 @@
+Logical Blocks:
+
+a. And Block.
+
+b. Or Block.
+
+c. Ternary not Block:
+	
+	node TernaryNot (input: int) returns (output: int); 
+		output = if input = 1 then 0
+			 else if input = 0 then 1
+			 else input;
+	
+High Level Actors:
+
+They are a bit complex than  the Logical Blocks.
+
+a. IfTB Actor:
+
+	node IfTB (input: bool) returns (output: int); 
+	
+		output = if input then 1
+				    else 2;
+
+b. TrUB Actor:
+
+	node TrUB (input, release: bool) returns (output: int);
+	var lock: bool;
+	
+		lock = if input and not release then true
+		       else if release then false
+		       else false -> pre(lock);
+		output = if input and not release then 1
+			else if release then 2
+			else 2 -> if pre(lock) then 1
+				  else 2 ;
+
+c. Iff Actor:
+	node Iff (input: bool) returns (output: int);
+	 
+		output = if input then 1
+			    else 0;
+
+Res Actor Blocks:
+
+Res Actors can have variable number of inputs depending on the system, please refer to the respective gate definition file for the model.
+
+Complex Blocks:
+
+a. Complex Event Actors:
+
+There is no predefined input or output for these type of blocks, they change depending on the nature of input numbers and connection.Please refer to the MPS gate definition list for the respective controllers.
+
+
+
+	
+
+
+
