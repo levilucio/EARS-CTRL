@@ -3204,24 +3204,6 @@
                 <property role="Xl_RC" value="just added" />
               </node>
             </node>
-            <node concept="1X3_iC" id="Sr3WmIBaqi" role="lGtFl">
-              <property role="3V$3am" value="statement" />
-              <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-              <node concept="3clFbF" id="4saS2TSrCeu" role="8Wnug">
-                <node concept="2OqwBi" id="4saS2TSrCAS" role="3clFbG">
-                  <node concept="2Sf5sV" id="4saS2TSrCes" role="2Oq$k0" />
-                  <node concept="2qgKlT" id="4saS2TSrE1q" role="2OqNvi">
-                    <ref role="37wK5l" to="os8l:3ghj88fUYVW" resolve="writeToFile" />
-                    <node concept="Xl_RD" id="4saS2TSrUcf" role="37wK5m">
-                      <property role="Xl_RC" value="solverOutput.txt" />
-                    </node>
-                    <node concept="Xl_RD" id="4saS2TSrIiU" role="37wK5m">
-                      <property role="Xl_RC" value="wow" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
             <node concept="3clFbF" id="3ghj88fVxAm" role="3cqZAp">
               <node concept="2OqwBi" id="3ghj88fVy5l" role="3clFbG">
                 <node concept="2Sf5sV" id="3ghj88fVxAk" role="2Oq$k0" />
@@ -3238,27 +3220,6 @@
                         <ref role="3cqZAo" node="6mryTk89UcN" resolve="inputFile" />
                       </node>
                     </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="1X3_iC" id="4saS2TStaPL" role="lGtFl">
-              <property role="3V$3am" value="statement" />
-              <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-              <node concept="34ab3g" id="4saS2TSsrfY" role="8Wnug">
-                <property role="35gtTG" value="info" />
-                <node concept="3cpWs3" id="4saS2TSss8B" role="34bqiv">
-                  <node concept="2OqwBi" id="4saS2TSstoe" role="3uHU7w">
-                    <node concept="2Sf5sV" id="4saS2TSssiM" role="2Oq$k0" />
-                    <node concept="2qgKlT" id="4saS2TSstB_" role="2OqNvi">
-                      <ref role="37wK5l" to="os8l:3ghj88fVJYt" resolve="systhesizeSolverOutput" />
-                      <node concept="37vLTw" id="4saS2TSstNd" role="37wK5m">
-                        <ref role="3cqZAo" node="2lS7bsHP5MI" resolve="temporaryFile" />
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="Xl_RD" id="4saS2TSsrg0" role="3uHU7B">
-                    <property role="Xl_RC" value=" *** " />
                   </node>
                 </node>
               </node>
