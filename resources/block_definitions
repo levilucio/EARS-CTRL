@@ -1,8 +1,8 @@
 Logical Blocks:
 
-a. And Block.
+a. And Block: Generic logial 'and' block
 
-b. Or Block.
+b. Or Block:  Generic logial 'or' block
 
 c. Ternary not Block:
 	
