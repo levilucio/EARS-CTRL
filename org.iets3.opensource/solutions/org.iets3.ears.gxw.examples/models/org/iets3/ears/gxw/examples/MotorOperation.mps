@@ -78,11 +78,11 @@
       <property role="2uI0VX" value="auxilary motor" />
     </node>
     <node concept="2uIZ38" id="7HbJNeua$Ou" role="2skrmi">
-      <property role="TrG5h" value="10 second timer" />
+      <property role="TrG5h" value="ten second timer" />
       <property role="2uI0VX" value="10 second timer" />
     </node>
     <node concept="2uIZ38" id="7HbJNeua$OF" role="2skrmi">
-      <property role="TrG5h" value="5 sec timer" />
+      <property role="TrG5h" value="five sec timer" />
       <property role="2uI0VX" value="5 sec timer" />
     </node>
     <node concept="2uIZ38" id="1vCvjaRvGEj" role="2skrmi">
@@ -93,17 +93,17 @@
       <property role="OJvIS" value="start button is presesd" />
     </node>
     <node concept="otU$d" id="1vCvjaRsl7t" role="2skrmg">
-      <property role="OJvIS" value="10 sec timer expires" />
+      <property role="OJvIS" value="ten sec timer expires" />
     </node>
     <node concept="otU$d" id="1vCvjaRvGuo" role="2skrmg">
-      <property role="OJvIS" value="5 sec timer expires" />
+      <property role="OJvIS" value="five sec timer expires" />
     </node>
     <node concept="otU$d" id="1vCvjaRvG_P" role="2skrmg">
       <property role="OJvIS" value="stop button pressed" />
     </node>
     <node concept="otU$0" id="1vCvjaRsl6a" role="2skrmv">
       <property role="Nkej4" value="start" />
-      <ref role="Nkej6" node="7HbJNeua$Ou" resolve="10 second timer" />
+      <ref role="Nkej6" node="7HbJNeua$Ou" resolve="ten second timer" />
     </node>
     <node concept="otU$0" id="1vCvjaRsl6f" role="2skrmv">
       <property role="Nkej4" value="start" />
@@ -115,7 +115,7 @@
     </node>
     <node concept="otU$0" id="1vCvjaRvGt9" role="2skrmv">
       <property role="Nkej4" value="start" />
-      <ref role="Nkej6" node="7HbJNeua$OF" resolve="5 sec timer" />
+      <ref role="Nkej6" node="7HbJNeua$OF" resolve="five sec timer" />
     </node>
     <node concept="otU$0" id="1vCvjaRvG_C" role="2skrmv">
       <property role="Nkej4" value="start" />
@@ -143,7 +143,7 @@
     <node concept="sEiiz" id="1vCvjaRwkij" role="OJ2fO">
       <property role="1hs7$j" value="Motor Controller" />
       <property role="eBQts" value="Req2" />
-      <ref role="1Qhi4P" node="7HbJNeua$Ou" resolve="10 second timer" />
+      <ref role="1Qhi4P" node="7HbJNeua$Ou" resolve="ten second timer" />
       <node concept="3T_uu0" id="1vCvjaRwkir" role="3tOtb8">
         <ref role="3T_uuC" node="1vCvjaRsl5Y" />
       </node>
@@ -170,7 +170,7 @@
     <node concept="sEiiz" id="1vCvjaRwkkC" role="OJ2fO">
       <property role="1hs7$j" value="Motor Controller" />
       <property role="eBQts" value="Req4" />
-      <ref role="1Qhi4P" node="7HbJNeua$OF" resolve="5 sec timer" />
+      <ref role="1Qhi4P" node="7HbJNeua$OF" resolve="five sec timer" />
       <node concept="3T_uu0" id="1vCvjaRwkkT" role="3tOtb8">
         <ref role="3T_uuC" node="1vCvjaRsl7t" />
       </node>
