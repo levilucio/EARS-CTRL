@@ -4,6 +4,7 @@
   <languages>
     <use id="33eb1b5b-ad96-4262-9112-684c487e01e0" name="org.iets3.graphicalLustre" version="0" />
     <use id="7731a166-da1f-472e-a40a-2283f5e47dc5" name="org.iets3.ears.gxw" version="0" />
+    <use id="8ca79d43-eb45-4791-bdd4-0d6130ff895b" name="de.itemis.mps.editor.diagram.layout" version="0" />
   </languages>
   <imports />
   <registry>
@@ -91,10 +92,10 @@
     <property role="TrG5h" value="Glossary For Liquid Mixer" />
     <property role="$xNHY" value="liquid mixer controller" />
     <node concept="otU$d" id="34ScOrO_opg" role="2skrmg">
-      <property role="OJvIS" value="one min timer expires" />
+      <property role="OJvIS" value="one minute timer expires" />
     </node>
     <node concept="otU$d" id="34ScOrO_opj" role="2skrmg">
-      <property role="OJvIS" value="two min timer expires" />
+      <property role="OJvIS" value="two minute timer expires" />
     </node>
     <node concept="otU$d" id="34ScOrO_opG" role="2skrmg">
       <property role="OJvIS" value="start button is pressed" />
@@ -134,7 +135,7 @@
     </node>
     <node concept="otU$0" id="7HbJNetZt_t" role="2skrmv">
       <property role="Nkej4" value="start" />
-      <ref role="Nkej6" node="34ScOrO_ow4" resolve="one min timer" />
+      <ref role="Nkej6" node="34ScOrO_ow4" resolve="one minute timer" />
     </node>
     <node concept="otU$0" id="7HbJNetZtHS" role="2skrmv">
       <property role="Nkej4" value="start" />
@@ -181,7 +182,7 @@
       <property role="2uI0VX" value="the motor for rotation" />
     </node>
     <node concept="2uIZ38" id="34ScOrO_ow4" role="2skrmi">
-      <property role="TrG5h" value="one min timer" />
+      <property role="TrG5h" value="one minute timer" />
       <property role="2uI0VX" value="the timer for 60  second" />
     </node>
     <node concept="2uIZ38" id="1qavb4emVGY" role="2skrmi">
@@ -300,7 +301,7 @@
     </node>
     <node concept="oLToE" id="1qavb4ekVcH" role="OJ2fO">
       <property role="eBQts" value="Req5 " />
-      <ref role="1Qhi4P" node="34ScOrO_ow4" resolve="one min timer" />
+      <ref role="1Qhi4P" node="34ScOrO_ow4" resolve="one minute timer" />
       <node concept="3T_uu0" id="1qavb4ekVd6" role="oLToI">
         <ref role="3T_uuC" node="34ScOrO_orh" />
       </node>

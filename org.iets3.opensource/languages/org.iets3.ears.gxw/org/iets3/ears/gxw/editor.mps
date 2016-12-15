@@ -879,7 +879,7 @@
         <property role="3F0ifm" value=":" />
       </node>
       <node concept="3F0ifn" id="1qavb4ejuEH" role="3EZMnx">
-        <property role="3F0ifm" value="When IFF" />
+        <property role="3F0ifm" value="When" />
       </node>
       <node concept="3F1sOY" id="1qavb4ejuEI" role="3EZMnx">
         <ref role="1NtTu8" to="q3w4:1qavb4ejuEv" resolve="trigger" />
