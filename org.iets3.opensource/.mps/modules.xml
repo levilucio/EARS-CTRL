@@ -6,6 +6,10 @@
       <modulePath path="$PROJECT_DIR$/languages/org.iets3.lustre/org.iets3.graphicalLustre.mpl" folder="gxw" />
       <modulePath path="$PROJECT_DIR$/solutions/org.iets3.ears.gxw.examples/org.iets3.ears.gxw.examples.msd" folder="gxw" />
       <modulePath path="$PROJECT_DIR$/solutions/org.iets3.structuralCoder/org.iets3.structuralCoder.msd" folder="gxw" />
+      <modulePath path="$iets3.github.opensource.home$/code/languages/org.iets3.opensource/languages/org.iets3.ears.gxw/org.iets3.ears.gxw.mpl" folder="gxw" />
+      <modulePath path="$iets3.github.opensource.home$/code/languages/org.iets3.opensource/languages/org.iets3.lustre/org.iets3.graphicalLustre.mpl" folder="gxw" />
+      <modulePath path="$iets3.github.opensource.home$/code/languages/org.iets3.opensource/solutions/org.iets3.ears.gxw.examples/org.iets3.ears.gxw.examples.msd" folder="gxw" />
+      <modulePath path="$iets3.github.opensource.home$/code/languages/org.iets3.opensource/solutions/org.iets3.structuralCoder/org.iets3.structuralCoder.msd" folder="gxw" />
     </projectModules>
   </component>
 </project>
