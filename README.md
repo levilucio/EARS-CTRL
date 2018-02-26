@@ -17,7 +17,7 @@ Video demo: https://youtu.be/IOyFRd6mbd0
 
 4. Unzip the matlab.zip folder (available at the root of this repository) and place its contents inside a folder accessible from your mbeddr installation
 
-5. Add the path to the folder you have created in step 4 to the MATLABPATH system variable (e.g. on Linux and Mac under bash use the export command to create the variable and assign it the path). 
+5. Add the path to the folder you have created in step 4 to the MATLABPATH system variable (e.g. on Linux and Mac under bash use the export command to create the variable and assign it the path) 
 
 6. Add <matlabroot>/bin to the PATH variable of your system such that the __matlab__ command is accessible from the console. For additional instructions on setting the path variable to contain the simulink binaries you can look here: https://www.mathworks.com/help/matlab/matlab_external/setup-environment.html
 
