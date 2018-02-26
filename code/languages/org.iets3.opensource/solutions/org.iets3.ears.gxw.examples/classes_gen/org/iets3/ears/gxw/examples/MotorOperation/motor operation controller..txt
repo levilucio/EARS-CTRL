@@ -1,3 +1,3 @@
 
 INPUT is_pressed, is_pressed, expiredexpired
-OUTPUT oil_motorstart, five_second_timerstart, auxiliary_motorstart, main_motorstart, ten_second_timerstart
+OUTPUT auxiliary_motorstart, five_second_timerstart, oil_motorstart, ten_second_timerstart, main_motorstart

@@ -15,7 +15,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import java.util.List;
 import java.util.ArrayList;
 import org.iets3.utility.behavior.ConceptUtility;
-import org.iets3.flow.modelproperty.req.behavior.ModelProperty__BehaviorDescriptor;
+import org.iets3.flow.modelproperty.behavior.ModelProperty__BehaviorDescriptor;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.baseLanguage.tuples.runtime.Tuples;
 import jetbrains.mps.baseLanguage.tuples.runtime.MultiTuple;
@@ -86,7 +86,7 @@ public class DashboardUtility {
   public boolean isPropertySatisfied(SNode inputNode) {
     // checks if a property is satisfied on the model 
     SNode modelPropertyNode = ConceptUtility.createNodeFromAbstractConceptDec(inputNode);
-    return (boolean) ModelProperty__BehaviorDescriptor.propertyCheck_id5fb3TbDEkMb.invoke(SNodeOperations.cast(modelPropertyNode, MetaAdapterFactory.getConcept(0xecea2a9218f4e3bL, 0xbadca524a5addb7cL, 0x56e0c2409a3be91bL, "org.iets3.flow.modelproperty.req.structure.ModelProperty")), currentModel);
+    return (boolean) ModelProperty__BehaviorDescriptor.propertyCheck_id5fb3TbDEkMb.invoke(SNodeOperations.cast(modelPropertyNode, MetaAdapterFactory.getConcept(0xecea2a9218f4e3bL, 0xbadca524a5addb7cL, 0x56e0c2409a3be91bL, "org.iets3.flow.modelproperty.structure.ModelProperty")), currentModel);
   }
 
   public boolean isAtomicFormulaSatisfied(SNode atomicProperty) {

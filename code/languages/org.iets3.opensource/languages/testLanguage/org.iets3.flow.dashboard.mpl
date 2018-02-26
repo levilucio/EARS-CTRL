@@ -20,12 +20,9 @@
     <dependency reexport="false">7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)</dependency>
     <dependency reexport="false">12df1801-5927-4e36-8290-a798dbf99230(org.iets3.utility)</dependency>
     <dependency reexport="false">6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)</dependency>
-    <dependency reexport="false">0ecea2a9-218f-4e3b-badc-a524a5addb7c(org.iets3.flow.modelproperty.req)</dependency>
-    <dependency reexport="false">a3c6f642-41b7-44cb-951b-463b8427a245(org.iets3.req.core)</dependency>
+    <dependency reexport="false">0ecea2a9-218f-4e3b-badc-a524a5addb7c(org.iets3.flow.modelproperty)</dependency>
     <dependency reexport="false">2374bc90-7e37-41f1-a9c4-c2e35194c36a(com.mbeddr.doc)</dependency>
-    <dependency reexport="false">8e4e17de-bc10-4a34-a376-a243fbde540e(org.iets3.glossary)</dependency>
     <dependency reexport="false">f95247f1-a285-4e98-864f-7f4b1723a807(org.iets3.core.users)</dependency>
-    <dependency reexport="false">f0094c7d-7df0-4fa9-9be7-4ba73a8db962(org.iets3.table.coolingbehaviortable)</dependency>
     <dependency reexport="false">89749848-cf4d-49ab-8c2b-7275de1b311d(org.iets3.flow.modelproperty.state)</dependency>
   </dependencies>
   <usedDevKits>
@@ -97,7 +94,6 @@
     <module reference="760a0a8c-eabb-4521-8bfd-65db761a9ba3(jetbrains.mps.baseLanguage.logging)" version="0" />
     <module reference="e39e4a59-8cb6-498e-860e-8fa8361c0d90(jetbrains.mps.baseLanguage.scopes)" version="0" />
     <module reference="479c7a8c-02f9-43b5-9139-d910cb22f298(jetbrains.mps.core.xml)" version="0" />
-    <module reference="4caf0310-491e-41f5-8a9b-2006b3a94898(jetbrains.mps.execution.util)" version="0" />
     <module reference="63650c59-16c8-498a-99c8-005c7ee9515d(jetbrains.mps.lang.access)" version="0" />
     <module reference="aee9cad2-acd4-4608-aef2-0004f6a1cdbd(jetbrains.mps.lang.actions)" version="0" />
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
@@ -109,16 +105,11 @@
     <module reference="9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)" version="0" />
     <module reference="7a5dda62-9140-4668-ab76-d5ed1746f2b2(jetbrains.mps.lang.typesystem)" version="0" />
     <module reference="9a4afe51-f114-4595-b5df-048ce3c596be(jetbrains.mps.runtime)" version="0" />
-    <module reference="7b68d745-a7b8-48b9-bd9c-05c0f8725a35(org.iets3.core.base)" version="0" />
     <module reference="f95247f1-a285-4e98-864f-7f4b1723a807(org.iets3.core.users)" version="0" />
     <module reference="10211132-9b5e-427a-9b37-1c1f28794a5e(org.iets3.flow.dashboard)" version="0" />
+    <module reference="0ecea2a9-218f-4e3b-badc-a524a5addb7c(org.iets3.flow.modelproperty)" version="0" />
     <module reference="c020a239-d865-4312-adc3-cb4ab0a7a547(org.iets3.flow.modelproperty.formulae)" version="0" />
-    <module reference="0ecea2a9-218f-4e3b-badc-a524a5addb7c(org.iets3.flow.modelproperty.req)" version="0" />
     <module reference="89749848-cf4d-49ab-8c2b-7275de1b311d(org.iets3.flow.modelproperty.state)" version="0" />
-    <module reference="8e4e17de-bc10-4a34-a376-a243fbde540e(org.iets3.glossary)" version="0" />
-    <module reference="a3c6f642-41b7-44cb-951b-463b8427a245(org.iets3.req.core)" version="0" />
-    <module reference="f0094c7d-7df0-4fa9-9be7-4ba73a8db962(org.iets3.table.coolingbehaviortable)" version="0" />
-    <module reference="af3ce814-fe75-4814-9ec9-1c4a57d0f39d(org.iets3.table.core)" version="0" />
     <module reference="12df1801-5927-4e36-8290-a798dbf99230(org.iets3.utility)" version="0" />
   </dependencyVersions>
   <extendedLanguages />

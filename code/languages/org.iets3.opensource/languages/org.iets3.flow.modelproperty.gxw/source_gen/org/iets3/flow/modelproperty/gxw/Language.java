@@ -41,7 +41,7 @@ public class Language extends LanguageRuntime {
   }
   @Override
   protected String[] getExtendedLanguageIDs() {
-    return new String[]{"org.iets3.flow.modelproperty.req"};
+    return new String[]{"org.iets3.flow.modelproperty"};
   }
   @Override
   public Collection<TemplateModule> getGenerators() {

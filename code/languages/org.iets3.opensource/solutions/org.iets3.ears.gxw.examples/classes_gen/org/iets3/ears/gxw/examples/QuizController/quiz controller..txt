@@ -1,3 +1,3 @@
 
 INPUT is_off, is_off, is_off, is_pressed, is_pressed, is_pressed, is_pressed, is_pressed, is_pressed
-OUTPUT indicator_high_schoolblink, indicator_professorblink, indicator_pupilblink
+OUTPUT indicator_pupilblink, indicator_professorblink, indicator_high_schoolblink

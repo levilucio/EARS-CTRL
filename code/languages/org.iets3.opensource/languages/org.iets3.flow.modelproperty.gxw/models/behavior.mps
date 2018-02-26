@@ -6,7 +6,7 @@
     <devkit ref="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   </languages>
   <imports>
-    <import index="m8x2" ref="r:0023c122-04b1-45a0-82bf-20a8f253e58c(org.iets3.flow.modelproperty.req.behavior)" />
+    <import index="m8x2" ref="r:0023c122-04b1-45a0-82bf-20a8f253e58c(org.iets3.flow.modelproperty.behavior)" />
     <import index="phxh" ref="r:5754bb7d-f802-4a0f-bd3d-0764f0d71413(jetbrains.mps.ide.modelchecker.platform.actions)" />
     <import index="urs3" ref="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
     <import index="g4jo" ref="r:d98d04fb-4a60-4106-81cf-6cb40b67de4d(jetbrains.mps.ide.findusages.model)" />
@@ -1911,7 +1911,7 @@
                       <property role="TrG5h" value="seq" />
                       <node concept="A3Dl8" id="p7uByp4acg" role="1tU5fm">
                         <node concept="3Tqbb2" id="p7uByp4acj" role="A3Ik2">
-                          <ref role="ehGHo" to="q3w4:UoN5smVQlq" resolve="Trigger" />
+                          <ref role="ehGHo" to="q3w4:UoN5smVQlq" resolve="ComponentTrigger" />
                         </node>
                       </node>
                       <node concept="2OqwBi" id="p7uByp4acz" role="33vP2m">
@@ -1983,7 +1983,7 @@
                                       <ref role="3cqZAo" node="p7uByp4eGy" resolve="it" />
                                     </node>
                                     <node concept="3TrcHB" id="p7uByp4eGt" role="2OqNvi">
-                                      <ref role="3TsBF5" to="q3w4:5QnDqxDa_Sg" resolve="text" />
+                                      <ref role="3TsBF5" to="q3w4:5QnDqxDa_Sg" resolve="trigger" />
                                     </node>
                                   </node>
                                   <node concept="liA8E" id="p7uByp4eGu" role="2OqNvi">
@@ -1993,7 +1993,7 @@
                                         <ref role="2Gs0qQ" node="p7uByp3fa8" resolve="trigger" />
                                       </node>
                                       <node concept="3TrcHB" id="p7uByp4eGx" role="2OqNvi">
-                                        <ref role="3TsBF5" to="q3w4:5QnDqxDa_Sg" resolve="text" />
+                                        <ref role="3TsBF5" to="q3w4:5QnDqxDa_Sg" resolve="trigger" />
                                       </node>
                                     </node>
                                   </node>
@@ -2030,7 +2030,7 @@
                       <property role="TrG5h" value="seq" />
                       <node concept="A3Dl8" id="p7uByp4nsr" role="1tU5fm">
                         <node concept="3Tqbb2" id="p7uByp4nsu" role="A3Ik2">
-                          <ref role="ehGHo" to="q3w4:UoN5smVQln" resolve="SystemResponse" />
+                          <ref role="ehGHo" to="q3w4:UoN5smVQln" resolve="ComponentResponse" />
                         </node>
                       </node>
                       <node concept="2OqwBi" id="p7uByp4ns$" role="33vP2m">
@@ -2105,7 +2105,7 @@
                                         <ref role="3cqZAo" node="p7uByp4fQd" resolve="it" />
                                       </node>
                                       <node concept="3TrcHB" id="p7uByp4pZt" role="2OqNvi">
-                                        <ref role="3TsBF5" to="q3w4:6KxW$9vshq6" resolve="action" />
+                                        <ref role="3TsBF5" to="q3w4:6KxW$9vshq6" resolve="response" />
                                       </node>
                                     </node>
                                     <node concept="liA8E" id="p7uByp4fQ9" role="2OqNvi">
@@ -2115,7 +2115,7 @@
                                           <ref role="2Gs0qQ" node="p7uByp4fPv" resolve="response" />
                                         </node>
                                         <node concept="3TrcHB" id="p7uByp4rbI" role="2OqNvi">
-                                          <ref role="3TsBF5" to="q3w4:6KxW$9vshq6" resolve="action" />
+                                          <ref role="3TsBF5" to="q3w4:6KxW$9vshq6" resolve="response" />
                                         </node>
                                       </node>
                                     </node>
@@ -2127,7 +2127,7 @@
                                           <ref role="3cqZAo" node="p7uByp4fQd" resolve="it" />
                                         </node>
                                         <node concept="3TrEf2" id="p7uByp6bfT" role="2OqNvi">
-                                          <ref role="3Tt5mk" to="q3w4:6KxW$9vshq4" resolve="systemName" />
+                                          <ref role="3Tt5mk" to="q3w4:6KxW$9vshq4" resolve="componentName" />
                                         </node>
                                       </node>
                                       <node concept="3TrcHB" id="p7uByp6cFI" role="2OqNvi">
@@ -2142,7 +2142,7 @@
                                             <ref role="2Gs0qQ" node="p7uByp4fPv" resolve="response" />
                                           </node>
                                           <node concept="3TrEf2" id="p7uByp6gX7" role="2OqNvi">
-                                            <ref role="3Tt5mk" to="q3w4:6KxW$9vshq4" resolve="systemName" />
+                                            <ref role="3Tt5mk" to="q3w4:6KxW$9vshq4" resolve="componentName" />
                                           </node>
                                         </node>
                                         <node concept="3TrcHB" id="p7uByp6iDV" role="2OqNvi">

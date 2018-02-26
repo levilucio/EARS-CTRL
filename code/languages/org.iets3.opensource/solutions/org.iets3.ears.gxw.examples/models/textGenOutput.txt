@@ -21,4 +21,4 @@
 
 
 INPUT oneminutetimerexpired, twominutetimerexpired, startbuttonispressed, liquidleveloffirstloadcycleequalslevell1, liquidlevelofsecondloadcycleequalslevell2, emergencybuttonispressed
-OUTPUT valve2open, twominutetimerstart, valve0open, valve1open, oneminutetimerstart, stirringmotorstart
+OUTPUT stirringmotorstart, valve0open, twominutetimerstart, valve2open, oneminutetimerstart, valve1open
