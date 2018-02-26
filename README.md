@@ -15,14 +15,16 @@ Video demo: https://youtu.be/IOyFRd6mbd0
 
     `git clone https://github.com/levilucio/EARS-CTRL.git`
 
-4. Copy and put the extracted version matlab.zip folder (available in this repo) containing the Simulink S-Function files and place them inside a folder accessible from your mbeddr 
+4. Unzip the matlab.zip folder (available at the root of this repository) and place its contents inside a folder accessible from your mbeddr installation
 
-5. Add the matlab folder path to a MATLABPATH system variable (e.g. on Linux and Mac use the export command to add to path variable). 
+5. Add the path to the folder you have created in step 4 to the MATLABPATH system variable (e.g. on Linux and Mac under bash use the export command to create the variable and assign it the path). 
 
-6. Add <matlabroot>/bin to the PATH variable of your system such that the __matlab__ command is accessible from the console. For additional instructions on setting the path variable you can look here: https://www.mathworks.com/help/matlab/matlab_external/setup-environment.html
+6. Add <matlabroot>/bin to the PATH variable of your system such that the __matlab__ command is accessible from the console. For additional instructions on setting the path variable to contain the simulink binaries you can look here: https://www.mathworks.com/help/matlab/matlab_external/setup-environment.html
 
-7. Start MPS and open the _org.iets3.opensource_ project at:
+7. Start mbeddr (making sure that MATLABPATH system variable is accessible) and open the _org.iets3.opensource_ project at:
 
     `your_repo_root/code/languages`
 
 8. Compile all the languages in this order: core, flow, gxw
+
+9. Enjoy EARS-CTRL!
