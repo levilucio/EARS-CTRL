@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="ConstraintsAspectDescriptor.java">
+      <unit at="13,0,55,0" name="org.iets3.core.base.constraints.ConstraintsAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:02d078a1-d0db-43fc-a66a-8505d53851a4(org.iets3.core.base.constraints)/229512757698888267">
+    <file name="OptionalNameSpecifier_Constraints.java">
+      <node id="229512757698888267" at="9,46,10,158" concept="7" />
+      <node id="229512757698888267" at="9,0,12,0" concept="0" trace="OptionalNameSpecifier_Constraints#()V" />
+      <scope id="229512757698888267" at="9,46,10,158" />
+      <scope id="229512757698888267" at="9,0,12,0" />
+      <unit id="229512757698888267" at="8,0,14,0" name="org.iets3.core.base.constraints.OptionalNameSpecifier_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:02d078a1-d0db-43fc-a66a-8505d53851a4(org.iets3.core.base.constraints)/229512757698888325">
+    <file name="IOptionallyNamed_Constraints.java">
+      <node id="229512757698888325" at="19,41,20,162" concept="7" />
+      <node id="229512757698888325" at="24,84,25,119" concept="4" />
+      <node id="229512757698888325" at="28,37,29,20" concept="5" />
+      <node id="229512757698888325" at="32,42,33,37" concept="4" />
+      <node id="229512757698889868" at="34,542,35,347" concept="5" />
+      <node id="229512757698891553" at="36,9,37,95" concept="5" />
+      <node id="229512757698888325" at="39,7,40,22" concept="5" />
+      <node id="229512757699398508" at="42,55,43,43" concept="5" />
+      <node id="229512757698888325" at="19,0,22,0" concept="0" trace="IOptionallyNamed_Constraints#()V" />
+      <node id="229512757698888401" at="33,37,36,9" concept="2" />
+      <node id="229512757699398508" at="42,0,45,0" concept="6" trace="isNotEmptyString#(Ljava/lang/String;)Z" />
+      <node id="229512757698888325" at="27,0,31,0" concept="3" trace="hasOwnGetter#()Z" />
+      <node id="229512757698888325" at="31,0,39,0" concept="3" trace="getValue#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Object;" />
+      <node id="229512757698888325" at="25,119,39,7" concept="1" />
+      <node id="229512757698888325" at="23,0,42,0" concept="3" trace="getSpecifiedProperties#()Ljava/util/Map;" />
+      <scope id="229512757698888325" at="19,41,20,162" />
+      <scope id="229512757698888325" at="28,37,29,20" />
+      <scope id="229512757698888402" at="34,542,35,347" />
+      <scope id="229512757699398508" at="42,55,43,43" />
+      <scope id="229512757698888325" at="19,0,22,0" />
+      <scope id="229512757699398508" at="42,0,45,0">
+        <var name="str" id="229512757699398508" />
+      </scope>
+      <scope id="229512757698888325" at="27,0,31,0" />
+      <scope id="229512757698888325" at="32,42,37,95">
+        <var name="propertyName" id="229512757698888325" />
+      </scope>
+      <scope id="229512757698888325" at="31,0,39,0">
+        <var name="node" id="229512757698888325" />
+      </scope>
+      <scope id="229512757698888325" at="24,84,40,22">
+        <var name="properties" id="229512757698888325" />
+      </scope>
+      <scope id="229512757698888325" at="23,0,42,0" />
+      <unit id="229512757698888325" at="26,137,39,5" name="org.iets3.core.base.constraints.IOptionallyNamed_Constraints$1" />
+      <unit id="229512757698888325" at="18,0,46,0" name="org.iets3.core.base.constraints.IOptionallyNamed_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:02d078a1-d0db-43fc-a66a-8505d53851a4(org.iets3.core.base.constraints)/229512757699383384">
+    <file name="IValidNamedConcept_Constraints.java">
+      <node id="229512757699383384" at="17,43,18,164" concept="7" />
+      <node id="229512757699383384" at="22,84,23,119" concept="4" />
+      <node id="229512757699383384" at="26,40,27,20" concept="5" />
+      <node id="229512757699383384" at="30,70,31,37" concept="4" />
+      <node id="229512757699384330" at="31,37,32,102" concept="5" />
+      <node id="229512757699383384" at="34,7,35,22" concept="5" />
+      <node id="229512757699383384" at="17,0,20,0" concept="0" trace="IValidNamedConcept_Constraints#()V" />
+      <node id="229512757699383384" at="25,0,29,0" concept="3" trace="hasOwnValidator#()Z" />
+      <node id="229512757699383384" at="29,0,34,0" concept="3" trace="validateValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Z" />
+      <node id="229512757699383384" at="23,119,34,7" concept="1" />
+      <node id="229512757699383384" at="21,0,37,0" concept="3" trace="getSpecifiedProperties#()Ljava/util/Map;" />
+      <scope id="229512757699383384" at="17,43,18,164" />
+      <scope id="229512757699383384" at="26,40,27,20" />
+      <scope id="229512757699383384" at="30,70,32,102">
+        <var name="propertyName" id="229512757699383384" />
+      </scope>
+      <scope id="229512757699383384" at="17,0,20,0" />
+      <scope id="229512757699383384" at="25,0,29,0" />
+      <scope id="229512757699383384" at="29,0,34,0">
+        <var name="node" id="229512757699383384" />
+        <var name="propertyValue" id="229512757699383384" />
+      </scope>
+      <scope id="229512757699383384" at="22,84,35,22">
+        <var name="properties" id="229512757699383384" />
+      </scope>
+      <scope id="229512757699383384" at="21,0,37,0" />
+      <unit id="229512757699383384" at="24,137,34,5" name="org.iets3.core.base.constraints.IValidNamedConcept_Constraints$1" />
+      <unit id="229512757699383384" at="16,0,38,0" name="org.iets3.core.base.constraints.IValidNamedConcept_Constraints" />
+    </file>
+  </root>
+</debug-info>
+

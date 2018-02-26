@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144231330558:jetbrains.mps.baseLanguage.structure.ForStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="ConstraintsAspectDescriptor.java">
+      <unit at="13,0,60,0" name="org.iets3.table.coolingbehaviortable.constraints.ConstraintsAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:5d1f7104-b2b4-4b7e-a62e-df4bc479425d(org.iets3.table.coolingbehaviortable.constraints)/1339125842464290416">
+    <file name="CoolingBehaviorTable_Constraints.java">
+      <node id="1339125842464290416" at="19,45,20,175" concept="12" />
+      <node id="1339125842464290416" at="23,0,24,0" concept="10" trace="LOG" />
+      <node id="1339125842464290416" at="25,84,26,119" concept="6" />
+      <node id="1339125842464290416" at="29,40,30,20" concept="7" />
+      <node id="1339125842464290416" at="33,70,34,37" concept="6" />
+      <node id="1339125842465011172" at="36,36,37,64" concept="2" />
+      <node id="2119000601801050903" at="38,11,39,0" concept="9" />
+      <node id="1339125842464996995" at="39,0,40,23" concept="7" />
+      <node id="1339125842464966987" at="41,9,42,20" concept="7" />
+      <node id="1339125842464290416" at="44,7,45,22" concept="7" />
+      <node id="1339125842464290416" at="19,0,22,0" concept="1" trace="CoolingBehaviorTable_Constraints#()V" />
+      <node id="1339125842465011172" at="35,71,38,11" concept="4" />
+      <node id="1339125842464290416" at="28,0,32,0" concept="5" trace="hasOwnValidator#()Z" />
+      <node id="1339125842464988906" at="34,37,41,9" concept="4" />
+      <node id="1339125842464290416" at="32,0,44,0" concept="5" trace="validateValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Z" />
+      <node id="1339125842464290416" at="26,119,44,7" concept="2" />
+      <node id="1339125842464290416" at="24,0,47,0" concept="5" trace="getSpecifiedProperties#()Ljava/util/Map;" />
+      <scope id="1339125842464290416" at="19,45,20,175" />
+      <scope id="1339125842464290416" at="29,40,30,20" />
+      <scope id="1339125842465011172" at="36,36,37,64" />
+      <scope id="1339125842464290416" at="19,0,22,0" />
+      <scope id="1339125842464290416" at="28,0,32,0" />
+      <scope id="1339125842464988908" at="35,71,40,23" />
+      <scope id="1339125842464290416" at="33,70,42,20">
+        <var name="propertyName" id="1339125842464290416" />
+      </scope>
+      <scope id="1339125842464290416" at="32,0,44,0">
+        <var name="node" id="1339125842464290416" />
+        <var name="propertyValue" id="1339125842464290416" />
+      </scope>
+      <scope id="1339125842464290416" at="25,84,45,22">
+        <var name="properties" id="1339125842464290416" />
+      </scope>
+      <scope id="1339125842464290416" at="24,0,47,0" />
+      <unit id="1339125842464290416" at="27,137,44,5" name="org.iets3.table.coolingbehaviortable.constraints.CoolingBehaviorTable_Constraints$1" />
+      <unit id="1339125842464290416" at="18,0,48,0" name="org.iets3.table.coolingbehaviortable.constraints.CoolingBehaviorTable_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:5d1f7104-b2b4-4b7e-a62e-df4bc479425d(org.iets3.table.coolingbehaviortable.constraints)/7902325053944534512">
+    <file name="IncreasingValue_Constraints.java">
+      <node id="7902325053944534512" at="22,40,23,170" concept="12" />
+      <node id="7902325053944534512" at="27,84,28,119" concept="6" />
+      <node id="7902325053944534512" at="31,40,32,20" concept="7" />
+      <node id="7902325053944534512" at="35,70,36,37" concept="6" />
+      <node id="7558703436927629512" at="37,9,38,32" concept="8" />
+      <node id="7558703436927633709" at="38,32,39,485" concept="6" />
+      <node id="6443070701423645801" at="39,485,40,83" concept="6" />
+      <node id="6443070701424423552" at="40,83,41,81" concept="6" />
+      <node id="7558703436927670351" at="41,81,42,321" concept="6" />
+      <node id="6443070701418916354" at="42,321,43,0" concept="9" />
+      <node id="6443070701418924248" at="43,0,44,56" concept="8" />
+      <node id="6443070701419096671" at="44,56,45,0" concept="9" />
+      <node id="7558703436927787716" at="47,491,48,487" concept="2" />
+      <node id="6443070701424670888" at="49,13,50,51" concept="8" />
+      <node id="6443070701424446221" at="50,51,51,514" concept="2" />
+      <node id="6443070701424690061" at="51,514,52,518" concept="2" />
+      <node id="6443070701424506840" at="53,11,54,0" concept="9" />
+      <node id="6443070701424683364" at="54,0,55,54" concept="8" />
+      <node id="469300679823223576" at="55,54,56,71" concept="8" />
+      <node id="469300679823253189" at="56,71,57,66" concept="2" />
+      <node id="7558703436927929758" at="57,66,58,32" concept="8" />
+      <node id="7558703436927933302" at="58,32,59,24" concept="6" />
+      <node id="6443070701423086675" at="59,24,60,0" concept="9" />
+      <node id="7558703436928020391" at="62,531,63,22" concept="2" />
+      <node id="7558703436928042073" at="65,28,66,27" concept="7" />
+      <node id="3357695252964316123" at="68,11,69,0" concept="9" />
+      <node id="469300679824468136" at="71,961,72,27" concept="7" />
+      <node id="469300679823201764" at="74,11,75,0" concept="9" />
+      <node id="469300679824600233" at="76,185,77,33" concept="8" />
+      <node id="469300679824606631" at="78,1040,79,27" concept="7" />
+      <node id="469300679823376912" at="81,11,82,0" concept="9" />
+      <node id="7558703436927531003" at="82,0,83,22" concept="7" />
+      <node id="7902325053944534512" at="89,40,90,20" concept="7" />
+      <node id="7902325053944534512" at="93,70,94,35" concept="6" />
+      <node id="7558703436928396640" at="95,9,96,0" concept="9" />
+      <node id="1887516393076515204" at="97,321,98,77" concept="2" />
+      <node id="1887516393075700148" at="98,77,99,29" concept="8" />
+      <node id="1887516393075700152" at="100,1254,101,26" concept="7" />
+      <node id="1887516393075643242" at="102,13,103,0" concept="9" />
+      <node id="7558703436928481003" at="104,11,105,27" concept="8" />
+      <node id="7558703436928477907" at="106,1253,107,25" concept="7" />
+      <node id="7558703436928396648" at="108,11,109,0" concept="9" />
+      <node id="469300679825038135" at="109,0,110,80" concept="6" />
+      <node id="7558703436931259323" at="110,80,111,38" concept="8" />
+      <node id="7558703436931264919" at="111,38,112,481" concept="6" />
+      <node id="7558703436931306343" at="112,481,113,322" concept="6" />
+      <node id="7558703436931420972" at="115,491,116,487" concept="2" />
+      <node id="469300679825084091" at="117,13,118,515" concept="2" />
+      <node id="3357695252964249656" at="119,11,120,0" concept="9" />
+      <node id="7558703436928482077" at="120,0,121,30" concept="8" />
+      <node id="7558703436928484201" at="121,30,122,323" concept="6" />
+      <node id="7558703436928543485" at="122,323,123,23" concept="6" />
+      <node id="7558703436928640912" at="125,529,126,21" concept="2" />
+      <node id="7558703436928655216" at="128,27,129,27" concept="7" />
+      <node id="469300679825033224" at="130,13,131,0" concept="9" />
+      <node id="7558703436936514197" at="133,78,134,43" concept="8" />
+      <node id="469300679825150378" at="135,124,136,27" concept="7" />
+      <node id="7558703436928395710" at="138,11,139,22" concept="7" />
+      <node id="7902325053944534512" at="142,7,143,22" concept="7" />
+      <node id="7902325053944534512" at="22,0,25,0" concept="1" trace="IncreasingValue_Constraints#()V" />
+      <node id="7558703436927725941" at="46,42,49,13" concept="4" />
+      <node id="7558703436927960252" at="61,42,64,13" concept="4" />
+      <node id="7558703436928029657" at="64,13,67,13" concept="4" />
+      <node id="469300679824468134" at="70,76,73,13" concept="4" />
+      <node id="469300679824606629" at="77,33,80,13" concept="4" />
+      <node id="1887516393075700150" at="99,29,102,13" concept="4" />
+      <node id="7558703436928397131" at="105,27,108,11" concept="4" />
+      <node id="7558703436931361754" at="114,43,117,13" concept="4" />
+      <node id="7558703436928589261" at="124,44,127,13" concept="4" />
+      <node id="7558703436928648055" at="127,13,130,13" concept="4" />
+      <node id="469300679825029087" at="134,43,137,13" concept="4" />
+      <node id="7902325053944534512" at="30,0,34,0" concept="5" trace="hasOwnValidator#()Z" />
+      <node id="7902325053944534512" at="88,0,92,0" concept="5" trace="hasOwnValidator#()Z" />
+      <node id="6443070701422509556" at="69,0,74,11" concept="4" />
+      <node id="7558703436927919578" at="75,0,81,11" concept="4" />
+      <node id="7558703436931341228" at="113,322,119,11" concept="3" />
+      <node id="7558703436931485949" at="132,11,138,11" concept="4" />
+      <node id="7558703436927709005" at="45,0,53,11" concept="3" />
+      <node id="7558703436927940299" at="60,0,68,11" concept="3" />
+      <node id="1887516393075643241" at="96,0,104,11" concept="4" />
+      <node id="7558703436928550758" at="123,23,132,11" concept="3" />
+      <node id="7902325053944534512" at="94,35,140,9" concept="0" />
+      <node id="7902325053944534512" at="36,37,84,9" concept="0" />
+      <node id="7902325053944534512" at="92,0,142,0" concept="5" trace="validateValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Z" />
+      <node id="7902325053944534512" at="34,0,86,0" concept="5" trace="validateValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Z" />
+      <node id="7902325053944534512" at="86,7,142,7" concept="2" />
+      <node id="7902325053944534512" at="28,119,86,7" concept="2" />
+      <node id="7902325053944534512" at="26,0,145,0" concept="5" trace="getSpecifiedProperties#()Ljava/util/Map;" />
+      <scope id="7902325053944534512" at="22,40,23,170" />
+      <scope id="7902325053944534512" at="31,40,32,20" />
+      <scope id="7558703436927725943" at="47,491,48,487" />
+      <scope id="7558703436927960254" at="62,531,63,22" />
+      <scope id="7558703436928029659" at="65,28,66,27" />
+      <scope id="469300679824468135" at="71,961,72,27" />
+      <scope id="469300679824606630" at="78,1040,79,27" />
+      <scope id="7902325053944534512" at="89,40,90,20" />
+      <scope id="1887516393075700151" at="100,1254,101,26" />
+      <scope id="7558703436928397133" at="106,1253,107,25" />
+      <scope id="7558703436931361756" at="115,491,116,487" />
+      <scope id="7558703436928589263" at="125,529,126,21" />
+      <scope id="7558703436928648057" at="128,27,129,27" />
+      <scope id="469300679825029089" at="135,124,136,27" />
+      <scope id="7902325053944534512" at="22,0,25,0" />
+      <scope id="6443070701422509558" at="70,76,73,13" />
+      <scope id="7902325053944534512" at="30,0,34,0" />
+      <scope id="7558703436927919580" at="76,185,80,13" />
+      <scope id="7902325053944534512" at="88,0,92,0" />
+      <scope id="7558703436931341230" at="114,43,118,515" />
+      <scope id="7558703436931485951" at="133,78,137,13" />
+      <scope id="7558703436927709007" at="46,42,52,518" />
+      <scope id="7558703436927940301" at="61,42,67,13" />
+      <scope id="1887516393075643243" at="97,321,103,0" />
+      <scope id="7558703436931341228" at="113,322,119,11">
+        <var name="y" id="7558703436931341231" />
+      </scope>
+      <scope id="7558703436928550760" at="124,44,131,0" />
+      <scope id="7558703436927709005" at="45,0,53,11">
+        <var name="i" id="7558703436927709008" />
+      </scope>
+      <scope id="7558703436927940299" at="60,0,68,11">
+        <var name="j" id="7558703436927940302" />
+      </scope>
+      <scope id="7558703436928550758" at="123,23,132,11">
+        <var name="p" id="7558703436928550761" />
+      </scope>
+      <scope id="7558703436928395256" at="95,9,139,22">
+        <var name="from_" id="469300679825038138" />
+        <var name="highestval" id="7558703436931264922" />
+        <var name="indx" id="7558703436928543488" />
+        <var name="size_" id="7558703436931306346" />
+        <var name="tosize" id="7558703436928484204" />
+      </scope>
+      <scope id="7558703436927524832" at="37,9,83,22">
+        <var name="from_lst" id="6443070701423645804" />
+        <var name="index" id="7558703436927933305" />
+        <var name="size" id="7558703436927670354" />
+        <var name="smallest" id="7558703436927633712" />
+        <var name="to_lst" id="6443070701424423555" />
+      </scope>
+      <scope id="7902325053944534512" at="93,70,140,9">
+        <var name="propertyName" id="7902325053944534512" />
+      </scope>
+      <scope id="7902325053944534512" at="35,70,84,9">
+        <var name="propertyName" id="7902325053944534512" />
+      </scope>
+      <scope id="7902325053944534512" at="92,0,142,0">
+        <var name="node" id="7902325053944534512" />
+        <var name="propertyValue" id="7902325053944534512" />
+      </scope>
+      <scope id="7902325053944534512" at="34,0,86,0">
+        <var name="node" id="7902325053944534512" />
+        <var name="propertyValue" id="7902325053944534512" />
+      </scope>
+      <scope id="7902325053944534512" at="27,84,143,22">
+        <var name="properties" id="7902325053944534512" />
+      </scope>
+      <scope id="7902325053944534512" at="26,0,145,0" />
+      <unit id="7902325053944534512" at="87,145,142,5" name="org.iets3.table.coolingbehaviortable.constraints.IncreasingValue_Constraints$2" />
+      <unit id="7902325053944534512" at="29,147,86,5" name="org.iets3.table.coolingbehaviortable.constraints.IncreasingValue_Constraints$1" />
+      <unit id="7902325053944534512" at="21,0,146,0" name="org.iets3.table.coolingbehaviortable.constraints.IncreasingValue_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:5d1f7104-b2b4-4b7e-a62e-df4bc479425d(org.iets3.table.coolingbehaviortable.constraints)/7902325053945529307">
+    <file name="DecreasingValue_Constraints.java">
+      <node id="7902325053945529307" at="22,40,23,170" concept="12" />
+      <node id="7902325053945529307" at="27,84,28,119" concept="6" />
+      <node id="7902325053945529307" at="31,40,32,20" concept="7" />
+      <node id="7902325053945529307" at="35,70,36,35" concept="6" />
+      <node id="7558703436929241126" at="37,9,38,0" concept="9" />
+      <node id="7558703436929536390" at="38,0,39,32" concept="8" />
+      <node id="7558703436929539900" at="39,32,40,482" concept="6" />
+      <node id="7558703436929577025" at="40,482,41,321" concept="6" />
+      <node id="7423274771776644419" at="41,321,42,83" concept="6" />
+      <node id="7423274771776644426" at="42,83,43,81" concept="6" />
+      <node id="7423274771776642320" at="43,81,44,0" concept="9" />
+      <node id="7558703436929609790" at="44,0,45,0" concept="9" />
+      <node id="7558703436929688727" at="47,494,48,490" concept="2" />
+      <node id="7423274771776650929" at="49,13,50,51" concept="8" />
+      <node id="7423274771776650931" at="50,51,51,516" concept="2" />
+      <node id="7423274771776650947" at="51,516,52,520" concept="2" />
+      <node id="7423274771776649017" at="52,520,53,0" concept="9" />
+      <node id="469300679825265464" at="54,11,55,33" concept="8" />
+      <node id="469300679825323457" at="55,33,56,85" concept="8" />
+      <node id="469300679825265466" at="56,85,57,24" concept="6" />
+      <node id="469300679825265474" at="59,532,60,22" concept="2" />
+      <node id="469300679825265491" at="61,13,62,78" concept="8" />
+      <node id="469300679825265495" at="63,28,64,27" concept="7" />
+      <node id="469300679825347596" at="66,11,67,0" concept="9" />
+      <node id="469300679825327959" at="67,0,68,41" concept="8" />
+      <node id="469300679825247070" at="69,79,70,29" concept="8" />
+      <node id="469300679825247074" at="71,967,72,27" concept="7" />
+      <node id="469300679825236796" at="73,13,74,0" concept="9" />
+      <node id="469300679825263338" at="75,11,76,0" concept="9" />
+      <node id="7558703436928742899" at="77,190,78,79" concept="8" />
+      <node id="7558703436929278210" at="79,1040,80,27" concept="7" />
+      <node id="469300679825231194" at="81,13,82,0" concept="9" />
+      <node id="469300679825227714" at="82,0,83,0" concept="9" />
+      <node id="7558703436928745266" at="84,11,85,22" concept="7" />
+      <node id="7902325053945529307" at="91,40,92,20" concept="7" />
+      <node id="7902325053945529307" at="95,70,96,37" concept="6" />
+      <node id="1887516393076785991" at="97,9,98,0" concept="9" />
+      <node id="1887516393076845136" at="99,321,100,110" concept="2" />
+      <node id="1887516393076887123" at="100,110,101,80" concept="8" />
+      <node id="1887516393076889511" at="101,80,102,0" concept="9" />
+      <node id="1887516393076866622" at="103,1252,104,26" concept="7" />
+      <node id="1887516393076864608" at="105,13,106,0" concept="9" />
+      <node id="1887516393076787875" at="107,11,108,0" concept="9" />
+      <node id="7558703436929496515" at="109,1250,110,25" concept="7" />
+      <node id="7558703436930200742" at="111,11,112,0" concept="9" />
+      <node id="469300679825435746" at="112,0,113,78" concept="6" />
+      <node id="7558703436930201816" at="113,78,114,78" concept="8" />
+      <node id="7558703436930204150" at="114,78,115,480" concept="6" />
+      <node id="7558703436930239075" at="115,480,116,325" concept="6" />
+      <node id="7558703436930345640" at="118,490,119,486" concept="2" />
+      <node id="469300679825446514" at="120,13,121,511" concept="2" />
+      <node id="469300679825427737" at="122,11,123,99" concept="8" />
+      <node id="3357695252964194758" at="123,99,124,25" concept="6" />
+      <node id="3357695252964194766" at="126,537,127,23" concept="2" />
+      <node id="3357695252964194785" at="129,29,130,27" concept="7" />
+      <node id="469300679825423996" at="131,13,132,0" concept="9" />
+      <node id="7558703436930657771" at="133,11,134,70" concept="8" />
+      <node id="7558703436930681855" at="135,75,136,35" concept="8" />
+      <node id="7558703436930900028" at="136,35,137,66" concept="8" />
+      <node id="469300679825498148" at="138,122,139,27" concept="7" />
+      <node id="7558703436930655209" at="141,11,142,0" concept="9" />
+      <node id="7558703436930655213" at="142,0,143,0" concept="9" />
+      <node id="7558703436929499641" at="143,0,144,22" concept="7" />
+      <node id="7902325053945529307" at="147,7,148,22" concept="7" />
+      <node id="7902325053945529307" at="22,0,25,0" concept="1" trace="DecreasingValue_Constraints#()V" />
+      <node id="7558703436929632990" at="46,48,49,13" concept="4" />
+      <node id="469300679825265472" at="58,51,61,13" concept="4" />
+      <node id="469300679825265493" at="62,78,65,13" concept="4" />
+      <node id="469300679825247072" at="70,29,73,13" concept="4" />
+      <node id="7558703436929241601" at="78,79,81,13" concept="4" />
+      <node id="1887516393076866587" at="102,0,105,13" concept="4" />
+      <node id="7558703436929408835" at="108,0,111,11" concept="4" />
+      <node id="7558703436930293570" at="117,46,120,13" concept="4" />
+      <node id="3357695252964194764" at="125,64,128,13" concept="4" />
+      <node id="3357695252964194783" at="128,13,131,13" concept="4" />
+      <node id="469300679825476052" at="137,66,140,13" concept="4" />
+      <node id="7902325053945529307" at="30,0,34,0" concept="5" trace="hasOwnValidator#()Z" />
+      <node id="7902325053945529307" at="90,0,94,0" concept="5" trace="hasOwnValidator#()Z" />
+      <node id="7558703436930275160" at="116,325,122,11" concept="3" />
+      <node id="469300679825236795" at="68,41,75,11" concept="4" />
+      <node id="7558703436930663148" at="134,70,141,11" concept="4" />
+      <node id="7558703436929890062" at="76,0,84,11" concept="4" />
+      <node id="7558703436929613997" at="45,0,54,11" concept="3" />
+      <node id="469300679825265470" at="57,24,66,11" concept="3" />
+      <node id="1887516393076791637" at="98,0,107,11" concept="4" />
+      <node id="3357695252964194762" at="124,25,133,11" concept="3" />
+      <node id="7902325053945529307" at="96,37,145,9" concept="0" />
+      <node id="7902325053945529307" at="36,35,86,9" concept="0" />
+      <node id="7902325053945529307" at="94,0,147,0" concept="5" trace="validateValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Z" />
+      <node id="7902325053945529307" at="34,0,88,0" concept="5" trace="validateValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Z" />
+      <node id="7902325053945529307" at="88,7,147,7" concept="2" />
+      <node id="7902325053945529307" at="28,119,88,7" concept="2" />
+      <node id="7902325053945529307" at="26,0,150,0" concept="5" trace="getSpecifiedProperties#()Ljava/util/Map;" />
+      <scope id="7902325053945529307" at="22,40,23,170" />
+      <scope id="7902325053945529307" at="31,40,32,20" />
+      <scope id="7558703436929632992" at="47,494,48,490" />
+      <scope id="469300679825265473" at="59,532,60,22" />
+      <scope id="469300679825265494" at="63,28,64,27" />
+      <scope id="469300679825247073" at="71,967,72,27" />
+      <scope id="7558703436929241603" at="79,1040,80,27" />
+      <scope id="7902325053945529307" at="91,40,92,20" />
+      <scope id="1887516393076866621" at="103,1252,104,26" />
+      <scope id="7558703436929408837" at="109,1250,110,25" />
+      <scope id="7558703436930293572" at="118,490,119,486" />
+      <scope id="3357695252964194765" at="126,537,127,23" />
+      <scope id="3357695252964194784" at="129,29,130,27" />
+      <scope id="469300679825476054" at="138,122,139,27" />
+      <scope id="7902325053945529307" at="22,0,25,0" />
+      <scope id="7902325053945529307" at="30,0,34,0" />
+      <scope id="7902325053945529307" at="90,0,94,0" />
+      <scope id="7558703436930275162" at="117,46,121,511" />
+      <scope id="469300679825236797" at="69,79,74,0" />
+      <scope id="7558703436930663150" at="135,75,140,13" />
+      <scope id="7558703436929890064" at="77,190,83,0" />
+      <scope id="7558703436930275160" at="116,325,122,11">
+        <var name="p" id="7558703436930275163" />
+      </scope>
+      <scope id="7558703436929613999" at="46,48,53,0" />
+      <scope id="469300679825265471" at="58,51,65,13" />
+      <scope id="1887516393076791639" at="99,321,106,0" />
+      <scope id="3357695252964194763" at="125,64,132,0" />
+      <scope id="7558703436929613997" at="45,0,54,11">
+        <var name="itr" id="7558703436929614000" />
+      </scope>
+      <scope id="469300679825265470" at="57,24,66,11">
+        <var name="itr_" id="469300679825265529" />
+      </scope>
+      <scope id="3357695252964194762" at="124,25,133,11">
+        <var name="itr_frm" id="3357695252964194790" />
+      </scope>
+      <scope id="7558703436929408381" at="97,9,144,22">
+        <var name="frm_size" id="7558703436930239078" />
+        <var name="highest" id="7558703436930204153" />
+        <var name="index_" id="3357695252964194759" />
+        <var name="to_" id="469300679825435749" />
+      </scope>
+      <scope id="7558703436928742445" at="37,9,85,22">
+        <var name="from_lst" id="7423274771776644420" />
+        <var name="index" id="469300679825265467" />
+        <var name="size" id="7558703436929577028" />
+        <var name="smallestval" id="7558703436929539903" />
+        <var name="to_lst" id="7423274771776644427" />
+      </scope>
+      <scope id="7902325053945529307" at="95,70,145,9">
+        <var name="propertyName" id="7902325053945529307" />
+      </scope>
+      <scope id="7902325053945529307" at="35,70,86,9">
+        <var name="propertyName" id="7902325053945529307" />
+      </scope>
+      <scope id="7902325053945529307" at="94,0,147,0">
+        <var name="node" id="7902325053945529307" />
+        <var name="propertyValue" id="7902325053945529307" />
+      </scope>
+      <scope id="7902325053945529307" at="34,0,88,0">
+        <var name="node" id="7902325053945529307" />
+        <var name="propertyValue" id="7902325053945529307" />
+      </scope>
+      <scope id="7902325053945529307" at="27,84,148,22">
+        <var name="properties" id="7902325053945529307" />
+      </scope>
+      <scope id="7902325053945529307" at="26,0,150,0" />
+      <unit id="7902325053945529307" at="89,147,147,5" name="org.iets3.table.coolingbehaviortable.constraints.DecreasingValue_Constraints$2" />
+      <unit id="7902325053945529307" at="29,145,88,5" name="org.iets3.table.coolingbehaviortable.constraints.DecreasingValue_Constraints$1" />
+      <unit id="7902325053945529307" at="21,0,151,0" name="org.iets3.table.coolingbehaviortable.constraints.DecreasingValue_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:5d1f7104-b2b4-4b7e-a62e-df4bc479425d(org.iets3.table.coolingbehaviortable.constraints)/7902325053945878068">
+    <file name="DutyCycleVal_Constraints.java">
+      <node id="7902325053945878068" at="17,37,18,167" concept="12" />
+      <node id="7902325053945878068" at="22,84,23,119" concept="6" />
+      <node id="7902325053945878068" at="26,40,27,20" concept="7" />
+      <node id="7902325053945878068" at="30,70,31,42" concept="6" />
+      <node id="7902325053945882842" at="32,76,33,23" concept="7" />
+      <node id="7902325053945884755" at="34,9,35,20" concept="7" />
+      <node id="7902325053945878068" at="37,7,38,22" concept="7" />
+      <node id="7902325053945903179" at="40,52,41,44" concept="7" />
+      <node id="7902325053945878068" at="17,0,20,0" concept="1" trace="DutyCycleVal_Constraints#()V" />
+      <node id="7902325053945878528" at="31,42,34,9" concept="4" />
+      <node id="7902325053945903179" at="40,0,43,0" concept="11" trace="isEmptyString#(Ljava/lang/String;)Z" />
+      <node id="7902325053945878068" at="25,0,29,0" concept="5" trace="hasOwnValidator#()Z" />
+      <node id="7902325053945878068" at="29,0,37,0" concept="5" trace="validateValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Z" />
+      <node id="7902325053945878068" at="23,119,37,7" concept="2" />
+      <node id="7902325053945878068" at="21,0,40,0" concept="5" trace="getSpecifiedProperties#()Ljava/util/Map;" />
+      <scope id="7902325053945878068" at="17,37,18,167" />
+      <scope id="7902325053945878068" at="26,40,27,20" />
+      <scope id="7902325053945878530" at="32,76,33,23" />
+      <scope id="7902325053945903179" at="40,52,41,44" />
+      <scope id="7902325053945878068" at="17,0,20,0" />
+      <scope id="7902325053945903179" at="40,0,43,0">
+        <var name="str" id="7902325053945903179" />
+      </scope>
+      <scope id="7902325053945878068" at="25,0,29,0" />
+      <scope id="7902325053945878068" at="30,70,35,20">
+        <var name="propertyName" id="7902325053945878068" />
+      </scope>
+      <scope id="7902325053945878068" at="29,0,37,0">
+        <var name="node" id="7902325053945878068" />
+        <var name="propertyValue" id="7902325053945878068" />
+      </scope>
+      <scope id="7902325053945878068" at="22,84,38,22">
+        <var name="properties" id="7902325053945878068" />
+      </scope>
+      <scope id="7902325053945878068" at="21,0,40,0" />
+      <unit id="7902325053945878068" at="24,152,37,5" name="org.iets3.table.coolingbehaviortable.constraints.DutyCycleVal_Constraints$1" />
+      <unit id="7902325053945878068" at="16,0,44,0" name="org.iets3.table.coolingbehaviortable.constraints.DutyCycleVal_Constraints" />
+    </file>
+  </root>
+</debug-info>
+

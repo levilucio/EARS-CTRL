@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <root>
+    <file name="AffectedConceptRef_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="org.iets3.flow.modelproperty.state.behavior.AffectedConceptRef_BehaviorDescriptor" />
+    </file>
+    <file name="BehaviorAspectDescriptor.java">
+      <unit at="13,0,41,0" name="org.iets3.flow.modelproperty.state.behavior.BehaviorAspectDescriptor" />
+    </file>
+    <file name="PropertyRow_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="org.iets3.flow.modelproperty.state.behavior.PropertyRow_BehaviorDescriptor" />
+    </file>
+    <file name="PropertyState_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="org.iets3.flow.modelproperty.state.behavior.PropertyState_BehaviorDescriptor" />
+    </file>
+  </root>
+</debug-info>
+

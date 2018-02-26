@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <root>
+    <file name="ActionAspectDescriptorImpl.java">
+      <unit at="13,0,34,0" name="org.iets3.flow.core.actions.ActionAspectDescriptorImpl" />
+    </file>
+    <file name="QueriesGenerated.java">
+      <unit at="6,0,8,0" name="org.iets3.flow.core.actions.QueriesGenerated" />
+    </file>
+  </root>
+  <root nodeRef="r:107d12ca-d153-4642-aaa4-75fa64370b0d(org.iets3.flow.core.actions)/1235726657816721473">
+    <file name="NodeCreationPropertyFactory.java">
+      <node id="1235726657816753591" at="14,91,15,707" concept="0" />
+      <node id="1235726657816721513" at="14,0,17,0" concept="1" trace="setup#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SModel;)V" />
+      <scope id="1235726657816721513" at="14,91,15,707" />
+      <scope id="1235726657816721513" at="14,0,17,0">
+        <var name="enclosingNode" id="1235726657816721513" />
+        <var name="model" id="1235726657816721513" />
+        <var name="newNode" id="1235726657816721513" />
+        <var name="sampleNode" id="1235726657816721513" />
+      </scope>
+      <unit id="1235726657816721513" at="13,0,18,0" name="org.iets3.flow.core.actions.NodeCreationPropertyFactory$NodeFactory_1235726657816721513" />
+      <unit id="1235726657816721473" at="12,0,19,0" name="org.iets3.flow.core.actions.NodeCreationPropertyFactory" />
+    </file>
+  </root>
+</debug-info>
+

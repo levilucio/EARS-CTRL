@@ -1,0 +1,24 @@
+##  While not liquid level of first load cycle equals level l1 when start button is pressed, the liquid mixer controller shall open valve 0 until liquid level of first load cycle equals level l1 or emergency button is pressed.
+[] ((!liquidleveloffirstloadcycleequalslevell1 && startbuttonispressed) -> (valve0open W (liquidleveloffirstloadcycleequalslevell1 || emergencybuttonispressed)))
+
+##  When liquid level of first load cycle equals level l1, the liquid mixer controller shall not open valve 0 until start button is pressed or not liquid level of first load cycle equals level l1 or emergency button is pressed.
+[] (liquidleveloffirstloadcycleequalslevell1 -> (!valve0open W (startbuttonispressed || !liquidleveloffirstloadcycleequalslevell1 || emergencybuttonispressed)))
+
+##  While not liquid level of second load cycle equals level l2 when liquid level of first load cycle equals level l1, the liquid mixer controller shall open valve 1 until liquid level of second load cycle equals level l2 or emergency button is pressed.
+[] ((!liquidlevelofsecondloadcycleequalslevell2 && liquidleveloffirstloadcycleequalslevell1) -> (valve1open W (liquidlevelofsecondloadcycleequalslevell2 || emergencybuttonispressed)))
+
+##  When liquid level of second load cycle equals level l2, the liquid mixer controller shall not open valve 1 and start one minute timer and start stirring motor until liquid level of first load cycle equals level l1 or not liquid level of second load cycle equals level l2 or one minute timer expired or emergency button is pressed.
+[] (liquidlevelofsecondloadcycleequalslevell2 -> ((!valve1open && oneminutetimerstart && stirringmotorstart) W (liquidleveloffirstloadcycleequalslevell1 || !liquidlevelofsecondloadcycleequalslevell2 || oneminutetimerexpired || emergencybuttonispressed)))
+
+##  When one minute timer expired, the liquid mixer controller shall not start stirring motor and open valve 2 and start two minute timer until liquid level of second load cycle equals level l2 or two minute timer expired or emergency button is pressed.
+[] (oneminutetimerexpired -> ((!stirringmotorstart && valve2open && twominutetimerstart) W (liquidlevelofsecondloadcycleequalslevell2 || twominutetimerexpired || emergencybuttonispressed)))
+
+##  When two minute timer expired, the liquid mixer controller shall not open valve 2 until one minute timer expired or emergency button is pressed.
+[] (twominutetimerexpired -> (!valve2open W (oneminutetimerexpired || emergencybuttonispressed)))
+
+##  When emergency button is pressed, the liquid mixer controller shall not open valve 0 and not open valve 1 and not open valve 2 and not start stirring motor until start button is pressed or not liquid level of first load cycle equals level l1 or liquid level of first load cycle equals level l1 or liquid level of first load cycle equals level l1 or not liquid level of second load cycle equals level l2 or liquid level of second load cycle equals level l2 or one minute timer expired or two minute timer expired.
+[] (emergencybuttonispressed -> ((!valve0open && !valve1open && !valve2open && !stirringmotorstart) W (startbuttonispressed || !liquidleveloffirstloadcycleequalslevell1 || liquidleveloffirstloadcycleequalslevell1 || liquidleveloffirstloadcycleequalslevell1 || !liquidlevelofsecondloadcycleequalslevell2 || liquidlevelofsecondloadcycleequalslevell2 || oneminutetimerexpired || twominutetimerexpired)))
+
+
+INPUT oneminutetimerexpired, twominutetimerexpired, startbuttonispressed, liquidleveloffirstloadcycleequalslevell1, liquidlevelofsecondloadcycleequalslevell2, emergencybuttonispressed
+OUTPUT valve2open, twominutetimerstart, valve0open, valve1open, oneminutetimerstart, stirringmotorstart

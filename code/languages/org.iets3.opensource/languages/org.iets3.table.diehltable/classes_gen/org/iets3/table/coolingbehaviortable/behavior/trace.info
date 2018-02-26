@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <root>
+    <file name="BehaviorAspectDescriptor.java">
+      <unit at="13,0,41,0" name="org.iets3.table.coolingbehaviortable.behavior.BehaviorAspectDescriptor" />
+    </file>
+    <file name="CoolingBehaviorIncDecCell_BehaviorDescriptor.java">
+      <unit at="11,0,14,0" name="org.iets3.table.coolingbehaviortable.behavior.CoolingBehaviorIncDecCell_BehaviorDescriptor" />
+    </file>
+    <file name="CoolingBehaviorRow_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="org.iets3.table.coolingbehaviortable.behavior.CoolingBehaviorRow_BehaviorDescriptor" />
+    </file>
+    <file name="CoolingBehaviorTable_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="org.iets3.table.coolingbehaviortable.behavior.CoolingBehaviorTable_BehaviorDescriptor" />
+    </file>
+    <file name="DecreasingThreshold_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="org.iets3.table.coolingbehaviortable.behavior.DecreasingThreshold_BehaviorDescriptor" />
+    </file>
+    <file name="DecreasingValue_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="org.iets3.table.coolingbehaviortable.behavior.DecreasingValue_BehaviorDescriptor" />
+    </file>
+    <file name="DutyCycleVal_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="org.iets3.table.coolingbehaviortable.behavior.DutyCycleVal_BehaviorDescriptor" />
+    </file>
+    <file name="IncreasingThreshold_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="org.iets3.table.coolingbehaviortable.behavior.IncreasingThreshold_BehaviorDescriptor" />
+    </file>
+    <file name="IncreasingValue_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="org.iets3.table.coolingbehaviortable.behavior.IncreasingValue_BehaviorDescriptor" />
+    </file>
+  </root>
+</debug-info>
+

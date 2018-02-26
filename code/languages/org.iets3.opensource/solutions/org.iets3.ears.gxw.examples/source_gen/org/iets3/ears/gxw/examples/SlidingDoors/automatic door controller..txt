@@ -1,0 +1,3 @@
+
+INPUT is_activated, is_activated, is_activated, expires
+OUTPUT timerstart, dooropen, doorclose

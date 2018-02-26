@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1164879751025:jetbrains.mps.baseLanguage.structure.TryCatchStatement" />
+  <root>
+    <file name="BehaviorAspectDescriptor.java">
+      <unit at="13,0,41,0" name="org.iets3.utility.behavior.BehaviorAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:9910e94e-fa84-4276-aaf0-b86490fb1c3b(org.iets3.utility.behavior)/2590351519197155598">
+    <file name="LanguageUtility.java">
+      <node id="1306391027784950126" at="19,84,20,0" concept="6" />
+      <node id="1306391027784983893" at="20,0,21,0" concept="6" />
+      <node id="1306391027783879065" at="24,204,25,110" concept="4" />
+      <node id="1306391027784452715" at="27,214,28,0" concept="6" />
+      <node id="1306391027783942412" at="28,0,29,314" concept="1" />
+      <node id="1306391027785121786" at="30,237,31,32" concept="5" />
+      <node id="1306391027782951399" at="37,5,38,0" concept="6" />
+      <node id="1306391027783679507" at="38,0,39,236" concept="1" />
+      <node id="1306391027782952502" at="39,236,40,16" concept="5" />
+      <node id="2590351519198077462" at="44,117,45,0" concept="6" />
+      <node id="2590351519198077472" at="47,62,48,222" concept="1" />
+      <node id="2590351519198077489" at="49,14,50,0" concept="6" />
+      <node id="2590351519198077490" at="50,0,51,39" concept="1" />
+      <node id="2590351519198077495" at="51,39,52,235" concept="1" />
+      <node id="2590351519198077506" at="52,235,53,123" concept="1" />
+      <node id="2590351519198077518" at="54,7,55,0" concept="6" />
+      <node id="2590351519198077523" at="56,28,57,51" concept="1" />
+      <node id="1306391027785005609" at="29,314,32,15" concept="3" />
+      <node id="2590351519198077487" at="49,12,54,7" concept="0" />
+      <node id="1306391027783893994" at="26,91,33,13" concept="3" />
+      <node id="2590351519198077470" at="46,9,54,7" concept="3" />
+      <node id="1306391027783880986" at="25,110,34,11" concept="2" />
+      <node id="1306391027783485940" at="23,86,35,9" concept="3" />
+      <node id="2590351519198077463" at="45,0,58,5" concept="8" />
+      <node id="1306391027782612343" at="22,116,36,7" concept="2" />
+      <node id="1306391027782594475" at="21,0,37,5" concept="2" />
+      <node id="2590351519198077460" at="44,0,60,0" concept="7" trace="fixDependencyForConcept#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/smodel/SModelInternal;Lorg/jetbrains/mps/openapi/language/SLanguage;)V" />
+      <node id="2590351519197258351" at="19,0,42,0" concept="7" trace="getLanguageFromAbstractConcept#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/language/SLanguage;" />
+      <scope id="1306391027785005611" at="30,237,31,32" />
+      <scope id="2590351519198077471" at="47,62,48,222" />
+      <scope id="2590351519198077519" at="56,0,57,51">
+        <var name="ex" id="2590351519198077520" />
+      </scope>
+      <scope id="2590351519198077522" at="56,28,57,51" />
+      <scope id="2590351519198077488" at="49,14,53,123" />
+      <scope id="1306391027783893996" at="27,214,32,15" />
+      <scope id="1306391027783880992" at="26,91,33,13" />
+      <scope id="1306391027783880986" at="25,110,34,11">
+        <var name="atomicModel" id="1306391027783880988" />
+      </scope>
+      <scope id="2590351519198077464" at="46,9,55,0" />
+      <scope id="1306391027783485942" at="24,204,34,11">
+        <var name="modelDescriptor" id="1306391027783879066" />
+      </scope>
+      <scope id="1306391027782612346" at="23,86,35,9" />
+      <scope id="1306391027782594478" at="22,116,36,7" />
+      <scope id="1306391027782612343" at="22,116,36,7">
+        <var name="concept" id="1306391027782612344" />
+      </scope>
+      <scope id="2590351519198077461" at="44,117,58,5" />
+      <scope id="1306391027782594475" at="21,0,37,5">
+        <var name="language" id="1306391027782594476" />
+      </scope>
+      <scope id="2590351519198077460" at="44,0,60,0">
+        <var name="conceptDeclaration" id="2590351519198077530" />
+        <var name="internal" id="2590351519198077532" />
+        <var name="language" id="2590351519198080928" />
+      </scope>
+      <scope id="1306391027782377711" at="19,84,40,16" />
+      <scope id="2590351519197258351" at="19,0,42,0">
+        <var name="conceptDeclaration" id="1306391027783520750" />
+      </scope>
+      <unit id="2590351519197155598" at="17,0,63,0" name="org.iets3.utility.behavior.LanguageUtility" />
+    </file>
+  </root>
+  <root nodeRef="r:9910e94e-fa84-4276-aaf0-b86490fb1c3b(org.iets3.utility.behavior)/2590351519198026884">
+    <file name="ConceptUtility.java">
+      <node id="2590351519198027626" at="18,82,19,105" concept="4" />
+      <node id="8029187915077663210" at="21,199,22,64" concept="4" />
+      <node id="2590351519198043565" at="22,64,23,92" concept="5" />
+      <node id="2590351519198067723" at="25,5,26,16" concept="5" />
+      <node id="2590351519198047873" at="28,70,29,47" concept="5" />
+      <node id="2590351519198047873" at="28,0,31,0" concept="7" trace="as_3blm9u_a0a1a0a1a1#(Ljava/lang/Object;Ljava/lang/Class;)null" />
+      <node id="2590351519198028547" at="20,94,24,7" concept="3" />
+      <node id="2590351519198027857" at="19,105,25,5" concept="2" />
+      <node id="2590351519198134630" at="18,0,28,0" concept="7" trace="createNodeFromAbstractConceptDec#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <scope id="2590351519198047873" at="28,70,29,47" />
+      <scope id="2590351519198028549" at="21,199,23,92">
+        <var name="properties" id="8029187915077663211" />
+      </scope>
+      <scope id="2590351519198047873" at="28,0,31,0">
+        <var name="o" id="2590351519198047873" />
+        <var name="type" id="2590351519198047873" />
+      </scope>
+      <scope id="2590351519198027863" at="20,94,24,7" />
+      <scope id="2590351519198027857" at="19,105,25,5">
+        <var name="item" id="2590351519198027859" />
+      </scope>
+      <scope id="2590351519198026972" at="18,82,26,16">
+        <var name="conceptHolderLanguage" id="2590351519198027627" />
+      </scope>
+      <scope id="2590351519198134630" at="18,0,28,0">
+        <var name="conceptDeclaration" id="2590351519198027100" />
+      </scope>
+      <unit id="2590351519198026884" at="16,0,32,0" name="org.iets3.utility.behavior.ConceptUtility" />
+    </file>
+  </root>
+  <root nodeRef="r:9910e94e-fa84-4276-aaf0-b86490fb1c3b(org.iets3.utility.behavior)/8603770804451507063">
+    <file name="CheckerUtility.java">
+      <node id="7174436232572692033" at="17,85,18,53" concept="4" />
+      <node id="7174436232572692040" at="18,53,19,95" concept="4" />
+      <node id="7174436232572692048" at="19,95,20,64" concept="1" />
+      <node id="7174436232572692055" at="20,64,21,0" concept="6" />
+      <node id="7174436232572692056" at="21,0,22,49" concept="4" />
+      <node id="2305742855763738885" at="22,49,23,0" concept="6" />
+      <node id="7174436232572692068" at="24,58,25,33" concept="4" />
+      <node id="7174436232572692074" at="25,33,26,44" concept="4" />
+      <node id="7174436232572692113" at="28,38,29,20" concept="5" />
+      <node id="7174436232572692122" at="30,5,31,16" concept="5" />
+      <node id="2305742855764845989" at="34,89,35,51" concept="4" />
+      <node id="2305742855764845997" at="35,51,36,92" concept="4" />
+      <node id="2305742855764901684" at="37,63,38,34" concept="4" />
+      <node id="2305742855764908860" at="38,34,39,44" concept="4" />
+      <node id="2305742855764893038" at="41,33,42,24" concept="5" />
+      <node id="2305742855764895564" at="43,5,44,16" concept="5" />
+      <node id="7174436232572692110" at="27,5,30,5" concept="3" />
+      <node id="2305742855764874933" at="40,5,43,5" concept="3" />
+      <node id="7174436232572692063" at="23,0,27,5" concept="2" />
+      <node id="2305742855764897990" at="36,92,40,5" concept="2" />
+      <node id="2305742855764844713" at="34,0,46,0" concept="7" trace="CheckConceptNodesForTypeCheckingErrors#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/util/Set;" />
+      <node id="7174436232572692028" at="17,0,33,0" concept="7" trace="CheckConceptNodesForPropertyErrors#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/util/Set;" />
+      <scope id="7174436232572692111" at="28,38,29,20" />
+      <scope id="2305742855764874935" at="41,33,42,24" />
+      <scope id="7174436232572692066" at="24,58,26,44">
+        <var name="concept" id="7174436232572692075" />
+        <var name="sNode" id="7174436232572692069" />
+      </scope>
+      <scope id="2305742855764897996" at="37,63,39,44">
+        <var name="concept" id="2305742855764908861" />
+        <var name="snode" id="2305742855764901685" />
+      </scope>
+      <scope id="7174436232572692063" at="23,0,27,5">
+        <var name="e" id="7174436232572692064" />
+      </scope>
+      <scope id="2305742855764897990" at="36,92,40,5">
+        <var name="te" id="2305742855764897992" />
+      </scope>
+      <scope id="2305742855764844716" at="34,89,44,16">
+        <var name="tc" id="2305742855764845990" />
+        <var name="typeErrors" id="2305742855764845998" />
+      </scope>
+      <scope id="2305742855764844713" at="34,0,46,0">
+        <var name="aNode" id="2305742855764845910" />
+      </scope>
+      <scope id="7174436232572692032" at="17,85,31,16">
+        <var name="cc" id="7174436232572692034" />
+        <var name="errors" id="7174436232572692057" />
+        <var name="lec" id="7174436232572692041" />
+      </scope>
+      <scope id="7174436232572692028" at="17,0,33,0">
+        <var name="aNode" id="7174436232572692030" />
+      </scope>
+      <unit id="8603770804451507063" at="16,0,48,0" name="org.iets3.utility.behavior.CheckerUtility" />
+    </file>
+  </root>
+</debug-info>
+

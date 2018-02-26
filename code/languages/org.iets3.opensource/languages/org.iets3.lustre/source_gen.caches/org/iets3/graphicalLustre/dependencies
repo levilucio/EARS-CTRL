@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="org.iets3.graphicalLustre.Language" file="Language.java">
+    <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.lang.Throwable" />
+    <classNode dependClassName="java.util.UUID" />
+    <classNode dependClassName="jetbrains.mps.intentions.IntentionAspectDescriptor" />
+    <classNode dependClassName="jetbrains.mps.lang.typesystem.runtime.IHelginsDescriptor" />
+    <classNode dependClassName="jetbrains.mps.openapi.editor.descriptor.EditorAspectDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.Language" />
+    <classNode dependClassName="jetbrains.mps.smodel.adapter.ids.SLanguageId" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.BehaviorAspectDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.ConceptPresentationAspect" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.ConstraintsAspectDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.ILanguageAspect" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.StructureAspectDescriptor" />
+    <classNode dependClassName="org.apache.log4j.LogManager" />
+    <classNode dependClassName="org.apache.log4j.Logger" />
+    <classNode dependClassName="org.iets3.graphicalLustre.behavior.BehaviorAspectDescriptor" />
+    <classNode dependClassName="org.iets3.graphicalLustre.constraints.ConstraintsAspectDescriptor" />
+    <classNode dependClassName="org.iets3.graphicalLustre.editor.EditorAspectDescriptorImpl" />
+    <classNode dependClassName="org.iets3.graphicalLustre.intentions.IntentionsDescriptor" />
+    <classNode dependClassName="org.iets3.graphicalLustre.structure.ConceptPresentationAspectImpl" />
+    <classNode dependClassName="org.iets3.graphicalLustre.structure.StructureAspectDescriptor" />
+    <classNode dependClassName="org.iets3.graphicalLustre.typesystem.TypesystemDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.language.LanguageRuntime" />
+  </dependency>
+</dependenciesRoot>
+

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <root>
+    <file name="AndPropertyFormula_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="org.iets3.flow.modelproperty.formulae.behavior.AndPropertyFormula_BehaviorDescriptor" />
+    </file>
+    <file name="AtomicProperty_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="org.iets3.flow.modelproperty.formulae.behavior.AtomicProperty_BehaviorDescriptor" />
+    </file>
+    <file name="BehaviorAspectDescriptor.java">
+      <unit at="13,0,41,0" name="org.iets3.flow.modelproperty.formulae.behavior.BehaviorAspectDescriptor" />
+    </file>
+    <file name="BinaryPropertyFormula_BehaviorDescriptor.java">
+      <unit at="11,0,14,0" name="org.iets3.flow.modelproperty.formulae.behavior.BinaryPropertyFormula_BehaviorDescriptor" />
+    </file>
+    <file name="ImplicationPropertyFormula_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="org.iets3.flow.modelproperty.formulae.behavior.ImplicationPropertyFormula_BehaviorDescriptor" />
+    </file>
+    <file name="NotPropertyFormula_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="org.iets3.flow.modelproperty.formulae.behavior.NotPropertyFormula_BehaviorDescriptor" />
+    </file>
+    <file name="OrPropertyFormula_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="org.iets3.flow.modelproperty.formulae.behavior.OrPropertyFormula_BehaviorDescriptor" />
+    </file>
+    <file name="PropertyFormula_BehaviorDescriptor.java">
+      <unit at="11,0,14,0" name="org.iets3.flow.modelproperty.formulae.behavior.PropertyFormula_BehaviorDescriptor" />
+    </file>
+    <file name="UnaryPropertyFormula_BehaviorDescriptor.java">
+      <unit at="11,0,14,0" name="org.iets3.flow.modelproperty.formulae.behavior.UnaryPropertyFormula_BehaviorDescriptor" />
+    </file>
+  </root>
+</debug-info>
+

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="org.iets3.table.coolingbehaviortable.intentions.IntentionsDescriptor" file="IntentionsDescriptor.java">
+    <classNode dependClassName="java.lang.Integer" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.util.Arrays" />
+    <classNode dependClassName="java.util.Collection" />
+    <classNode dependClassName="java.util.HashMap" />
+    <classNode dependClassName="java.util.Map" />
+    <classNode dependClassName="jetbrains.mps.intentions.IntentionFactory" />
+    <classNode dependClassName="jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory" />
+    <classNode dependClassName="org.iets3.table.coolingbehaviortable.intentions.generateGraph_Intention" />
+    <classNode dependClassName="org.jetbrains.annotations.NotNull" />
+    <classNode dependClassName="org.jetbrains.annotations.Nullable" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.language.SAbstractConcept" />
+    <classNode extendsClassName="jetbrains.mps.intentions.IntentionAspectBase" />
+  </dependency>
+  <dependency className="org.iets3.table.coolingbehaviortable.intentions.generateGraph_Intention" file="generateGraph_Intention.java">
+    <classNode dependClassName="java.lang.Double" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.lang.System" />
+    <classNode dependClassName="java.util.ArrayList" />
+    <classNode dependClassName="java.util.Collection" />
+    <classNode dependClassName="java.util.Collections" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.intentions.IntentionDescriptor" />
+    <classNode dependClassName="jetbrains.mps.intentions.IntentionExecutable" />
+    <classNode dependClassName="jetbrains.mps.intentions.IntentionExecutableBase" />
+    <classNode dependClassName="jetbrains.mps.intentions.IntentionType" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="jetbrains.mps.openapi.editor.EditorContext" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNodePointer" />
+    <classNode dependClassName="jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.language.SAbstractConcept" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode dependClassName="org.jfree.chart.ChartColor" />
+    <classNode dependClassName="org.jfree.chart.ChartFactory" />
+    <classNode dependClassName="org.jfree.chart.ChartFrame" />
+    <classNode dependClassName="org.jfree.chart.JFreeChart" />
+    <classNode dependClassName="org.jfree.chart.axis.NumberAxis" />
+    <classNode dependClassName="org.jfree.chart.axis.NumberTickUnit" />
+    <classNode dependClassName="org.jfree.chart.plot.PlotOrientation" />
+    <classNode dependClassName="org.jfree.chart.plot.XYPlot" />
+    <classNode dependClassName="org.jfree.data.xy.XYDataset" />
+    <classNode dependClassName="org.jfree.data.xy.XYSeries" />
+    <classNode dependClassName="org.jfree.data.xy.XYSeriesCollection" />
+    <classNode dependClassName="org.jfree.ui.RefineryUtilities" />
+    <classNode extendsClassName="jetbrains.mps.intentions.IntentionDescriptorBase" />
+    <classNode extendsClassName="jetbrains.mps.intentions.IntentionFactory" />
+  </dependency>
+</dependenciesRoot>
+

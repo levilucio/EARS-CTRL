@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="org.iets3.table.coolingbehaviortable.behavior.BehaviorAspectDescriptor" file="BehaviorAspectDescriptor.java">
+    <classNode dependClassName="java.lang.Integer" />
+    <classNode dependClassName="java.util.HashMap" />
+    <classNode dependClassName="java.util.Map" />
+    <classNode dependClassName="jetbrains.mps.core.aspects.behaviour.api.BHDescriptor" />
+    <classNode dependClassName="org.jetbrains.annotations.NotNull" />
+    <classNode dependClassName="org.jetbrains.annotations.Nullable" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.language.SAbstractConcept" />
+    <classNode extendsClassName="jetbrains.mps.core.aspects.behaviour.BaseBehaviorAspectDescriptor" />
+  </dependency>
+  <dependency className="org.iets3.table.coolingbehaviortable.behavior.CoolingBehaviorIncDecCell_BehaviorDescriptor" file="CoolingBehaviorIncDecCell_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Deprecated" />
+  </dependency>
+  <dependency className="org.iets3.table.coolingbehaviortable.behavior.CoolingBehaviorRow_BehaviorDescriptor" file="CoolingBehaviorRow_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Deprecated" />
+    <classNode dependClassName="java.lang.String" />
+  </dependency>
+  <dependency className="org.iets3.table.coolingbehaviortable.behavior.CoolingBehaviorTable_BehaviorDescriptor" file="CoolingBehaviorTable_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Deprecated" />
+    <classNode dependClassName="java.lang.String" />
+  </dependency>
+  <dependency className="org.iets3.table.coolingbehaviortable.behavior.DecreasingThreshold_BehaviorDescriptor" file="DecreasingThreshold_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Deprecated" />
+    <classNode dependClassName="java.lang.String" />
+  </dependency>
+  <dependency className="org.iets3.table.coolingbehaviortable.behavior.DecreasingValue_BehaviorDescriptor" file="DecreasingValue_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Deprecated" />
+    <classNode dependClassName="java.lang.String" />
+  </dependency>
+  <dependency className="org.iets3.table.coolingbehaviortable.behavior.DutyCycleVal_BehaviorDescriptor" file="DutyCycleVal_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Deprecated" />
+    <classNode dependClassName="java.lang.String" />
+  </dependency>
+  <dependency className="org.iets3.table.coolingbehaviortable.behavior.IncreasingThreshold_BehaviorDescriptor" file="IncreasingThreshold_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Deprecated" />
+    <classNode dependClassName="java.lang.String" />
+  </dependency>
+  <dependency className="org.iets3.table.coolingbehaviortable.behavior.IncreasingValue_BehaviorDescriptor" file="IncreasingValue_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Deprecated" />
+    <classNode dependClassName="java.lang.String" />
+  </dependency>
+</dependenciesRoot>
+

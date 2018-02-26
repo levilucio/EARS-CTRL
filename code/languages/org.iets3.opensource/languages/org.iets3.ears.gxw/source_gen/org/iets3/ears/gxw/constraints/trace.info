@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="ConstraintsAspectDescriptor.java">
+      <unit at="13,0,75,0" name="org.iets3.ears.gxw.constraints.ConstraintsAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:a9d9517c-1c54-4499-b3e8-268f1fb04c1b(org.iets3.ears.gxw.constraints)/2964597654736264035">
+    <file name="ComponentResponse_Constraints.java">
+      <node id="2964597654736264035" at="21,42,22,153" concept="10" />
+      <node id="2964597654736264035" at="26,90,27,131" concept="6" />
+      <node id="2964597654736264035" at="34,44,35,24" concept="7" />
+      <node id="9190636705090930961" at="38,128,39,192" concept="7" />
+      <node id="2964597654736264035" at="43,7,44,22" concept="7" />
+      <node id="2964597654736264035" at="21,0,24,0" concept="1" trace="ComponentResponse_Constraints#()V" />
+      <node id="2964597654736264035" at="33,0,37,0" concept="5" trace="hasPresentation#()Z" />
+      <node id="2964597654736264035" at="37,0,41,0" concept="5" trace="getPresentation#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/runtime/ReferencePresentationContext;)Ljava/lang/String;" />
+      <node id="2964597654736264035" at="31,56,41,10" concept="7" />
+      <node id="2964597654736264035" at="29,0,43,0" concept="5" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <node id="2964597654736264035" at="27,131,43,7" concept="2" />
+      <node id="2964597654736264035" at="25,0,46,0" concept="5" trace="getSpecifiedReferences#()Ljava/util/Map;" />
+      <scope id="2964597654736264035" at="21,42,22,153" />
+      <scope id="2964597654736264035" at="34,44,35,24" />
+      <scope id="9190636705090929900" at="38,128,39,192" />
+      <scope id="2964597654736264035" at="21,0,24,0" />
+      <scope id="2964597654736264035" at="33,0,37,0" />
+      <scope id="2964597654736264035" at="37,0,41,0">
+        <var name="_context" id="2964597654736264035" />
+        <var name="operationContext" id="2964597654736264035" />
+      </scope>
+      <scope id="2964597654736264035" at="31,56,41,10" />
+      <scope id="2964597654736264035" at="29,0,43,0" />
+      <scope id="2964597654736264035" at="26,90,44,22">
+        <var name="references" id="2964597654736264035" />
+      </scope>
+      <scope id="2964597654736264035" at="25,0,46,0" />
+      <unit id="2964597654736264035" at="32,19,41,9" name="org.iets3.ears.gxw.constraints.ComponentResponse_Constraints$2" />
+      <unit id="2964597654736264035" at="28,160,43,5" name="org.iets3.ears.gxw.constraints.ComponentResponse_Constraints$1" />
+      <unit id="2964597654736264035" at="20,0,47,0" name="org.iets3.ears.gxw.constraints.ComponentResponse_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:a9d9517c-1c54-4499-b3e8-268f1fb04c1b(org.iets3.ears.gxw.constraints)/2964597654736438792">
+    <file name="AtomicFormulaSR_Constraints.java">
+      <node id="2964597654736438792" at="33,40,34,152" concept="10" />
+      <node id="2964597654736438792" at="38,90,39,131" concept="6" />
+      <node id="2964597654736438792" at="42,44,43,20" concept="7" />
+      <node id="2964597654736438792" at="50,44,51,24" concept="7" />
+      <node id="8884404918330894500" at="54,128,55,0" concept="8" />
+      <node id="1618831278225057274" at="55,0,56,38" concept="6" />
+      <node id="1618831278225065908" at="56,38,57,0" concept="8" />
+      <node id="8884404918331806721" at="57,0,58,0" concept="8" />
+      <node id="6476888385500260192" at="58,0,59,564" concept="2" />
+      <node id="6476888385500259637" at="59,564,60,0" concept="8" />
+      <node id="8884404918330952212" at="60,0,61,38" concept="7" />
+      <node id="2964597654736438792" at="64,63,65,58" concept="7" />
+      <node id="8884404918332077899" at="69,13,70,0" concept="8" />
+      <node id="6476888385492415787" at="70,0,71,485" concept="6" />
+      <node id="6476888385492415799" at="71,485,72,68" concept="6" />
+      <node id="6476888385492415805" at="72,68,73,0" concept="8" />
+      <node id="6476888385492416377" at="73,0,74,0" concept="8" />
+      <node id="6476888385492416389" at="76,52,77,836" concept="7" />
+      <node id="6476888385492416397" at="79,16,80,0" concept="8" />
+      <node id="6476888385492393004" at="80,0,81,0" concept="8" />
+      <node id="6476888385492393621" at="81,0,82,0" concept="8" />
+      <node id="2964597654736438792" at="87,7,88,22" concept="7" />
+      <node id="2964597654736438792" at="90,0,91,0" concept="9" trace="breakingNode_6v1a6g_a0a2a0a0a1a0b0a1a2" />
+      <node id="2964597654736438792" at="33,0,36,0" concept="1" trace="AtomicFormulaSR_Constraints#()V" />
+      <node id="6476888385492416383" at="76,0,79,0" concept="5" trace="getName#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="2964597654736438792" at="41,0,45,0" concept="5" trace="hasOwnScopeProvider#()Z" />
+      <node id="2964597654736438792" at="49,0,53,0" concept="5" trace="hasPresentation#()Z" />
+      <node id="2964597654736438792" at="63,0,67,0" concept="5" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="6476888385492416378" at="74,0,79,16" concept="7" />
+      <node id="2964597654736438792" at="53,0,63,0" concept="5" trace="getPresentation#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/runtime/ReferencePresentationContext;)Ljava/lang/String;" />
+      <node id="2964597654736438792" at="68,122,83,13" concept="0" />
+      <node id="2964597654736438792" at="67,0,85,0" concept="5" trace="createScope#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="2964597654736438792" at="47,56,85,10" concept="7" />
+      <node id="2964597654736438792" at="45,0,87,0" concept="5" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <node id="2964597654736438792" at="39,131,87,7" concept="2" />
+      <node id="2964597654736438792" at="37,0,90,0" concept="5" trace="getSpecifiedReferences#()Ljava/util/Map;" />
+      <scope id="2964597654736438792" at="33,40,34,152" />
+      <scope id="2964597654736438792" at="42,44,43,20" />
+      <scope id="2964597654736438792" at="50,44,51,24" />
+      <scope id="2964597654736438792" at="64,63,65,58" />
+      <scope id="6476888385492416388" at="76,52,77,836" />
+      <scope id="2964597654736438792" at="33,0,36,0" />
+      <scope id="6476888385492416383" at="76,0,79,0">
+        <var name="child" id="6476888385492416386" />
+      </scope>
+      <scope id="2964597654736438792" at="41,0,45,0" />
+      <scope id="2964597654736438792" at="49,0,53,0" />
+      <scope id="2964597654736438792" at="63,0,67,0" />
+      <scope id="2964597654736441149" at="54,128,61,38">
+        <var name="presentationString" id="1618831278225057277" />
+      </scope>
+      <scope id="2964597654736438792" at="53,0,63,0">
+        <var name="_context" id="2964597654736438792" />
+        <var name="operationContext" id="2964597654736438792" />
+      </scope>
+      <scope id="8884404918331844901" at="69,13,82,0">
+        <var name="filteredResponse" id="6476888385492415800" />
+        <var name="nodesIncludingImported" id="6476888385492415788" />
+      </scope>
+      <scope id="2964597654736438792" at="68,122,83,13" />
+      <scope id="2964597654736438792" at="67,0,85,0">
+        <var name="_context" id="2964597654736438792" />
+        <var name="operationContext" id="2964597654736438792" />
+      </scope>
+      <scope id="2964597654736438792" at="47,56,85,10" />
+      <scope id="2964597654736438792" at="45,0,87,0" />
+      <scope id="2964597654736438792" at="38,90,88,22">
+        <var name="references" id="2964597654736438792" />
+      </scope>
+      <scope id="2964597654736438792" at="37,0,90,0" />
+      <unit id="6476888385492416381" at="75,25,79,15" name="org.iets3.ears.gxw.constraints.AtomicFormulaSR_Constraints$3" />
+      <unit id="2964597654736438792" at="48,19,85,9" name="org.iets3.ears.gxw.constraints.AtomicFormulaSR_Constraints$2" />
+      <unit id="2964597654736438792" at="40,152,87,5" name="org.iets3.ears.gxw.constraints.AtomicFormulaSR_Constraints$1" />
+      <unit id="2964597654736438792" at="32,0,92,0" name="org.iets3.ears.gxw.constraints.AtomicFormulaSR_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:a9d9517c-1c54-4499-b3e8-268f1fb04c1b(org.iets3.ears.gxw.constraints)/3691935882243926250">
+    <file name="AtomicFormulaTr_Constraints.java">
+      <node id="3691935882243926250" at="33,40,34,152" concept="10" />
+      <node id="3691935882243926250" at="38,90,39,131" concept="6" />
+      <node id="3691935882243926250" at="42,44,43,20" concept="7" />
+      <node id="3691935882243926250" at="50,44,51,24" concept="7" />
+      <node id="6476888385484268333" at="54,128,55,38" concept="6" />
+      <node id="6476888385500241842" at="55,38,56,0" concept="8" />
+      <node id="6476888385500244882" at="56,0,57,563" concept="2" />
+      <node id="6476888385484268372" at="57,563,58,0" concept="8" />
+      <node id="6476888385484268373" at="58,0,59,38" concept="7" />
+      <node id="3691935882243926250" at="62,63,63,58" concept="7" />
+      <node id="6476888385492463921" at="67,13,68,0" concept="8" />
+      <node id="8884404918332232758" at="68,0,69,484" concept="6" />
+      <node id="8884404918334531847" at="69,484,70,68" concept="6" />
+      <node id="8884404918334261560" at="70,68,71,0" concept="8" />
+      <node id="4439542802417911877" at="73,52,74,833" concept="7" />
+      <node id="8884404918332248433" at="76,16,77,0" concept="8" />
+      <node id="3691935882243926250" at="82,7,83,22" concept="7" />
+      <node id="3691935882243926250" at="85,0,86,0" concept="9" trace="breakingNode_vl9414_a0a2a0a0a1a0b0a1a2" />
+      <node id="3691935882243926250" at="33,0,36,0" concept="1" trace="AtomicFormulaTr_Constraints#()V" />
+      <node id="4439542802417911871" at="73,0,76,0" concept="5" trace="getName#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="3691935882243926250" at="41,0,45,0" concept="5" trace="hasOwnScopeProvider#()Z" />
+      <node id="3691935882243926250" at="49,0,53,0" concept="5" trace="hasPresentation#()Z" />
+      <node id="3691935882243926250" at="61,0,65,0" concept="5" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="4439542802417911866" at="71,0,76,16" concept="7" />
+      <node id="3691935882243926250" at="53,0,61,0" concept="5" trace="getPresentation#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/runtime/ReferencePresentationContext;)Ljava/lang/String;" />
+      <node id="3691935882243926250" at="66,122,78,13" concept="0" />
+      <node id="3691935882243926250" at="65,0,80,0" concept="5" trace="createScope#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="3691935882243926250" at="47,56,80,10" concept="7" />
+      <node id="3691935882243926250" at="45,0,82,0" concept="5" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <node id="3691935882243926250" at="39,131,82,7" concept="2" />
+      <node id="3691935882243926250" at="37,0,85,0" concept="5" trace="getSpecifiedReferences#()Ljava/util/Map;" />
+      <scope id="3691935882243926250" at="33,40,34,152" />
+      <scope id="3691935882243926250" at="42,44,43,20" />
+      <scope id="3691935882243926250" at="50,44,51,24" />
+      <scope id="3691935882243926250" at="62,63,63,58" />
+      <scope id="4439542802417911876" at="73,52,74,833" />
+      <scope id="3691935882243926250" at="33,0,36,0" />
+      <scope id="4439542802417911871" at="73,0,76,0">
+        <var name="child" id="4439542802417911874" />
+      </scope>
+      <scope id="3691935882243926250" at="41,0,45,0" />
+      <scope id="3691935882243926250" at="49,0,53,0" />
+      <scope id="3691935882243926250" at="61,0,65,0" />
+      <scope id="3691935882243926270" at="54,128,59,38">
+        <var name="presentationString" id="6476888385484268334" />
+      </scope>
+      <scope id="3691935882243926250" at="53,0,61,0">
+        <var name="_context" id="3691935882243926250" />
+        <var name="operationContext" id="3691935882243926250" />
+      </scope>
+      <scope id="6476888385484232233" at="67,13,77,0">
+        <var name="filteredResponse" id="8884404918334531850" />
+        <var name="nodesIncludingImported" id="8884404918332232759" />
+      </scope>
+      <scope id="3691935882243926250" at="66,122,78,13" />
+      <scope id="3691935882243926250" at="65,0,80,0">
+        <var name="_context" id="3691935882243926250" />
+        <var name="operationContext" id="3691935882243926250" />
+      </scope>
+      <scope id="3691935882243926250" at="47,56,80,10" />
+      <scope id="3691935882243926250" at="45,0,82,0" />
+      <scope id="3691935882243926250" at="38,90,83,22">
+        <var name="references" id="3691935882243926250" />
+      </scope>
+      <scope id="3691935882243926250" at="37,0,85,0" />
+      <unit id="4439542802417911869" at="72,25,76,15" name="org.iets3.ears.gxw.constraints.AtomicFormulaTr_Constraints$3" />
+      <unit id="3691935882243926250" at="48,19,80,9" name="org.iets3.ears.gxw.constraints.AtomicFormulaTr_Constraints$2" />
+      <unit id="3691935882243926250" at="40,152,82,5" name="org.iets3.ears.gxw.constraints.AtomicFormulaTr_Constraints$1" />
+      <unit id="3691935882243926250" at="32,0,87,0" name="org.iets3.ears.gxw.constraints.AtomicFormulaTr_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:a9d9517c-1c54-4499-b3e8-268f1fb04c1b(org.iets3.ears.gxw.constraints)/5349714724401771441">
+    <file name="PropositionalFormulaSR_Constraints.java">
+      <node id="5349714724401771441" at="9,47,10,168" concept="10" />
+      <node id="5349714724401771441" at="9,0,12,0" concept="1" trace="PropositionalFormulaSR_Constraints#()V" />
+      <scope id="5349714724401771441" at="9,47,10,168" />
+      <scope id="5349714724401771441" at="9,0,12,0" />
+      <unit id="5349714724401771441" at="8,0,14,0" name="org.iets3.ears.gxw.constraints.PropositionalFormulaSR_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:a9d9517c-1c54-4499-b3e8-268f1fb04c1b(org.iets3.ears.gxw.constraints)/6476888385500307804">
+    <file name="ComplexEventDrivenReq_Constraints.java">
+      <node id="6476888385500307804" at="9,46,10,158" concept="10" />
+      <node id="6476888385500307804" at="9,0,12,0" concept="1" trace="ComplexEventDrivenReq_Constraints#()V" />
+      <scope id="6476888385500307804" at="9,46,10,158" />
+      <scope id="6476888385500307804" at="9,0,12,0" />
+      <unit id="6476888385500307804" at="8,0,14,0" name="org.iets3.ears.gxw.constraints.ComplexEventDrivenReq_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:a9d9517c-1c54-4499-b3e8-268f1fb04c1b(org.iets3.ears.gxw.constraints)/8756612199931329921">
+    <file name="AliasFormulaSR_Constraints.java">
+      <node id="8756612199931329921" at="33,39,34,151" concept="10" />
+      <node id="8756612199931329921" at="38,90,39,131" concept="6" />
+      <node id="8756612199931329921" at="42,44,43,20" concept="7" />
+      <node id="8756612199931329921" at="50,44,51,24" concept="7" />
+      <node id="8756612199931427300" at="54,128,55,355" concept="7" />
+      <node id="8756612199931329921" at="58,63,59,58" concept="7" />
+      <node id="8756612199931331093" at="63,13,64,475" concept="6" />
+      <node id="8756612199931331105" at="64,475,65,68" concept="6" />
+      <node id="8756612199931372300" at="67,198,68,46" concept="2" />
+      <node id="8756612199931333144" at="72,52,73,501" concept="7" />
+      <node id="8756612199931332629" at="75,16,76,0" concept="8" />
+      <node id="8756612199931329921" at="81,7,82,22" concept="7" />
+      <node id="8756612199931329921" at="84,0,85,0" concept="9" trace="breakingNode_v1r0bq_a0a2a0a0a1a0b0a1a2" />
+      <node id="8756612199931329921" at="33,0,36,0" concept="1" trace="AliasFormulaSR_Constraints#()V" />
+      <node id="8756612199931367992" at="66,72,69,17" concept="4" />
+      <node id="8756612199931333138" at="72,0,75,0" concept="5" trace="getName#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="8756612199931329921" at="41,0,45,0" concept="5" trace="hasOwnScopeProvider#()Z" />
+      <node id="8756612199931329921" at="49,0,53,0" concept="5" trace="hasPresentation#()Z" />
+      <node id="8756612199931329921" at="53,0,57,0" concept="5" trace="getPresentation#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/runtime/ReferencePresentationContext;)Ljava/lang/String;" />
+      <node id="8756612199931329921" at="57,0,61,0" concept="5" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="8756612199931359586" at="65,68,70,15" concept="3" />
+      <node id="8756612199931333133" at="70,15,75,16" concept="7" />
+      <node id="8756612199931329921" at="62,122,77,13" concept="0" />
+      <node id="8756612199931329921" at="61,0,79,0" concept="5" trace="createScope#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="8756612199931329921" at="47,56,79,10" concept="7" />
+      <node id="8756612199931329921" at="45,0,81,0" concept="5" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <node id="8756612199931329921" at="39,131,81,7" concept="2" />
+      <node id="8756612199931329921" at="37,0,84,0" concept="5" trace="getSpecifiedReferences#()Ljava/util/Map;" />
+      <scope id="8756612199931329921" at="33,39,34,151" />
+      <scope id="8756612199931329921" at="42,44,43,20" />
+      <scope id="8756612199931329921" at="50,44,51,24" />
+      <scope id="8756612199931422645" at="54,128,55,355" />
+      <scope id="8756612199931329921" at="58,63,59,58" />
+      <scope id="8756612199931367994" at="67,198,68,46" />
+      <scope id="8756612199931333143" at="72,52,73,501" />
+      <scope id="8756612199931329921" at="33,0,36,0" />
+      <scope id="8756612199931359592" at="66,72,69,17" />
+      <scope id="8756612199931333138" at="72,0,75,0">
+        <var name="child" id="8756612199931333141" />
+      </scope>
+      <scope id="8756612199931329921" at="41,0,45,0" />
+      <scope id="8756612199931329921" at="49,0,53,0" />
+      <scope id="8756612199931329921" at="53,0,57,0">
+        <var name="_context" id="8756612199931329921" />
+        <var name="operationContext" id="8756612199931329921" />
+      </scope>
+      <scope id="8756612199931329921" at="57,0,61,0" />
+      <scope id="8756612199931359586" at="65,68,70,15">
+        <var name="alias" id="8756612199931359588" />
+      </scope>
+      <scope id="8756612199931330909" at="63,13,76,0">
+        <var name="filteredResponse" id="8756612199931331106" />
+        <var name="listOfAliases" id="8756612199931331094" />
+      </scope>
+      <scope id="8756612199931329921" at="62,122,77,13" />
+      <scope id="8756612199931329921" at="61,0,79,0">
+        <var name="_context" id="8756612199931329921" />
+        <var name="operationContext" id="8756612199931329921" />
+      </scope>
+      <scope id="8756612199931329921" at="47,56,79,10" />
+      <scope id="8756612199931329921" at="45,0,81,0" />
+      <scope id="8756612199931329921" at="38,90,82,22">
+        <var name="references" id="8756612199931329921" />
+      </scope>
+      <scope id="8756612199931329921" at="37,0,84,0" />
+      <unit id="8756612199931333136" at="71,25,75,15" name="org.iets3.ears.gxw.constraints.AliasFormulaSR_Constraints$3" />
+      <unit id="8756612199931329921" at="48,19,79,9" name="org.iets3.ears.gxw.constraints.AliasFormulaSR_Constraints$2" />
+      <unit id="8756612199931329921" at="40,161,81,5" name="org.iets3.ears.gxw.constraints.AliasFormulaSR_Constraints$1" />
+      <unit id="8756612199931329921" at="32,0,86,0" name="org.iets3.ears.gxw.constraints.AliasFormulaSR_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:a9d9517c-1c54-4499-b3e8-268f1fb04c1b(org.iets3.ears.gxw.constraints)/8756612199932870062">
+    <file name="AliasFormulaTr_Constraints.java">
+      <node id="8756612199932870062" at="33,39,34,151" concept="10" />
+      <node id="8756612199932870062" at="38,90,39,131" concept="6" />
+      <node id="8756612199932870062" at="42,44,43,20" concept="7" />
+      <node id="8756612199932870062" at="50,44,51,24" concept="7" />
+      <node id="8756612199933252678" at="54,128,55,355" concept="7" />
+      <node id="8756612199932870062" at="58,63,59,58" concept="7" />
+      <node id="8756612199932870250" at="63,13,64,475" concept="6" />
+      <node id="8756612199932870262" at="64,475,65,68" concept="6" />
+      <node id="8756612199932870278" at="67,197,68,46" concept="2" />
+      <node id="8756612199932870294" at="72,52,73,500" concept="7" />
+      <node id="8756612199932870062" at="80,7,81,22" concept="7" />
+      <node id="8756612199932870062" at="83,0,84,0" concept="9" trace="breakingNode_k9et6t_a0a2a0a0a1a0b0a1a2" />
+      <node id="8756612199932870062" at="33,0,36,0" concept="1" trace="AliasFormulaTr_Constraints#()V" />
+      <node id="8756612199932870272" at="66,72,69,17" concept="4" />
+      <node id="8756612199932870288" at="72,0,75,0" concept="5" trace="getName#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="8756612199932870062" at="41,0,45,0" concept="5" trace="hasOwnScopeProvider#()Z" />
+      <node id="8756612199932870062" at="49,0,53,0" concept="5" trace="hasPresentation#()Z" />
+      <node id="8756612199932870062" at="53,0,57,0" concept="5" trace="getPresentation#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/runtime/ReferencePresentationContext;)Ljava/lang/String;" />
+      <node id="8756612199932870062" at="57,0,61,0" concept="5" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="8756612199932870268" at="65,68,70,15" concept="3" />
+      <node id="8756612199932870283" at="70,15,75,16" concept="7" />
+      <node id="8756612199932870062" at="62,122,76,13" concept="0" />
+      <node id="8756612199932870062" at="61,0,78,0" concept="5" trace="createScope#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="8756612199932870062" at="47,56,78,10" concept="7" />
+      <node id="8756612199932870062" at="45,0,80,0" concept="5" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <node id="8756612199932870062" at="39,131,80,7" concept="2" />
+      <node id="8756612199932870062" at="37,0,83,0" concept="5" trace="getSpecifiedReferences#()Ljava/util/Map;" />
+      <scope id="8756612199932870062" at="33,39,34,151" />
+      <scope id="8756612199932870062" at="42,44,43,20" />
+      <scope id="8756612199932870062" at="50,44,51,24" />
+      <scope id="8756612199933250733" at="54,128,55,355" />
+      <scope id="8756612199932870062" at="58,63,59,58" />
+      <scope id="8756612199932870277" at="67,197,68,46" />
+      <scope id="8756612199932870293" at="72,52,73,500" />
+      <scope id="8756612199932870062" at="33,0,36,0" />
+      <scope id="8756612199932870271" at="66,72,69,17" />
+      <scope id="8756612199932870288" at="72,0,75,0">
+        <var name="child" id="8756612199932870291" />
+      </scope>
+      <scope id="8756612199932870062" at="41,0,45,0" />
+      <scope id="8756612199932870062" at="49,0,53,0" />
+      <scope id="8756612199932870062" at="53,0,57,0">
+        <var name="_context" id="8756612199932870062" />
+        <var name="operationContext" id="8756612199932870062" />
+      </scope>
+      <scope id="8756612199932870062" at="57,0,61,0" />
+      <scope id="8756612199932870268" at="65,68,70,15">
+        <var name="alias" id="8756612199932870269" />
+      </scope>
+      <scope id="8756612199932870066" at="63,13,75,16">
+        <var name="filteredResponse" id="8756612199932870263" />
+        <var name="listOfAliases" id="8756612199932870251" />
+      </scope>
+      <scope id="8756612199932870062" at="62,122,76,13" />
+      <scope id="8756612199932870062" at="61,0,78,0">
+        <var name="_context" id="8756612199932870062" />
+        <var name="operationContext" id="8756612199932870062" />
+      </scope>
+      <scope id="8756612199932870062" at="47,56,78,10" />
+      <scope id="8756612199932870062" at="45,0,80,0" />
+      <scope id="8756612199932870062" at="38,90,81,22">
+        <var name="references" id="8756612199932870062" />
+      </scope>
+      <scope id="8756612199932870062" at="37,0,83,0" />
+      <unit id="8756612199932870286" at="71,25,75,15" name="org.iets3.ears.gxw.constraints.AliasFormulaTr_Constraints$3" />
+      <unit id="8756612199932870062" at="48,19,78,9" name="org.iets3.ears.gxw.constraints.AliasFormulaTr_Constraints$2" />
+      <unit id="8756612199932870062" at="40,160,80,5" name="org.iets3.ears.gxw.constraints.AliasFormulaTr_Constraints$1" />
+      <unit id="8756612199932870062" at="32,0,85,0" name="org.iets3.ears.gxw.constraints.AliasFormulaTr_Constraints" />
+    </file>
+  </root>
+</debug-info>
+

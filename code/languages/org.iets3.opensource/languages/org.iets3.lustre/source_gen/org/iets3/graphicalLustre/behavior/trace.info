@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <root>
+    <file name="Actor_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="org.iets3.graphicalLustre.behavior.Actor_BehaviorDescriptor" />
+    </file>
+    <file name="AndActor_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="org.iets3.graphicalLustre.behavior.AndActor_BehaviorDescriptor" />
+    </file>
+    <file name="BaseConnection_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="org.iets3.graphicalLustre.behavior.BaseConnection_BehaviorDescriptor" />
+    </file>
+    <file name="BehaviorAspectDescriptor.java">
+      <unit at="13,0,41,0" name="org.iets3.graphicalLustre.behavior.BehaviorAspectDescriptor" />
+    </file>
+    <file name="EventActor_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="org.iets3.graphicalLustre.behavior.EventActor_BehaviorDescriptor" />
+    </file>
+    <file name="GateDefinition_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="org.iets3.graphicalLustre.behavior.GateDefinition_BehaviorDescriptor" />
+    </file>
+    <file name="GateDescriptors_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="org.iets3.graphicalLustre.behavior.GateDescriptors_BehaviorDescriptor" />
+    </file>
+    <file name="GenericEventActor_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="org.iets3.graphicalLustre.behavior.GenericEventActor_BehaviorDescriptor" />
+    </file>
+    <file name="GlobalActor_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="org.iets3.graphicalLustre.behavior.GlobalActor_BehaviorDescriptor" />
+    </file>
+    <file name="GlobalInputActor_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="org.iets3.graphicalLustre.behavior.GlobalInputActor_BehaviorDescriptor" />
+    </file>
+    <file name="GlobalOutputActor_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="org.iets3.graphicalLustre.behavior.GlobalOutputActor_BehaviorDescriptor" />
+    </file>
+    <file name="HighLevelActor_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="org.iets3.graphicalLustre.behavior.HighLevelActor_BehaviorDescriptor" />
+    </file>
+    <file name="IfTBActor_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="org.iets3.graphicalLustre.behavior.IfTBActor_BehaviorDescriptor" />
+    </file>
+    <file name="IffActor_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="org.iets3.graphicalLustre.behavior.IffActor_BehaviorDescriptor" />
+    </file>
+    <file name="LogicalActor_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="org.iets3.graphicalLustre.behavior.LogicalActor_BehaviorDescriptor" />
+    </file>
+    <file name="ModelHolder_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="org.iets3.graphicalLustre.behavior.ModelHolder_BehaviorDescriptor" />
+    </file>
+    <file name="NotActor_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="org.iets3.graphicalLustre.behavior.NotActor_BehaviorDescriptor" />
+    </file>
+    <file name="OrActor_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="org.iets3.graphicalLustre.behavior.OrActor_BehaviorDescriptor" />
+    </file>
+    <file name="Port_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="org.iets3.graphicalLustre.behavior.Port_BehaviorDescriptor" />
+    </file>
+    <file name="ReleaseActor_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="org.iets3.graphicalLustre.behavior.ReleaseActor_BehaviorDescriptor" />
+    </file>
+    <file name="ResActor_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="org.iets3.graphicalLustre.behavior.ResActor_BehaviorDescriptor" />
+    </file>
+    <file name="TernaryNotActor_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="org.iets3.graphicalLustre.behavior.TernaryNotActor_BehaviorDescriptor" />
+    </file>
+    <file name="TrUBActor_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="org.iets3.graphicalLustre.behavior.TrUBActor_BehaviorDescriptor" />
+    </file>
+    <file name="Wire_BehaviorDescriptor.java">
+      <unit at="11,0,17,0" name="org.iets3.graphicalLustre.behavior.Wire_BehaviorDescriptor" />
+    </file>
+  </root>
+</debug-info>
+

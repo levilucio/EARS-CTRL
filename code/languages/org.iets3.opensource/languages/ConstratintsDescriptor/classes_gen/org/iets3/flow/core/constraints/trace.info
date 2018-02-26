@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="ConstraintsAspectDescriptor.java">
+      <unit at="13,0,45,0" name="org.iets3.flow.core.constraints.ConstraintsAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:95dad059-a6ae-47d4-9e57-4b922df3d524(org.iets3.flow.core.constraints)/1235726657816490923">
+    <file name="CopyProperty_Constraints.java">
+      <node id="1235726657816490923" at="9,37,10,150" concept="1" />
+      <node id="1235726657816490923" at="9,0,12,0" concept="0" trace="CopyProperty_Constraints#()V" />
+      <scope id="1235726657816490923" at="9,37,10,150" />
+      <scope id="1235726657816490923" at="9,0,12,0" />
+      <unit id="1235726657816490923" at="8,0,14,0" name="org.iets3.flow.core.constraints.CopyProperty_Constraints" />
+    </file>
+  </root>
+</debug-info>
+
